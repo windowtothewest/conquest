@@ -1,4 +1,5 @@
 from typing import List, Dict
+import asciichartpy as acp
 import numpy as np
 
 """ To do:
@@ -45,8 +46,6 @@ nation_history_score_alterations = {
     "pilgrim" : {"political_freedom": -.5, "economy": .5, "civil_rights": -.5},
 }
 
-
-
 class Nation:
     def __init__(self, name:str, leader:str, capital:str):
         self.name = name
@@ -63,6 +62,13 @@ class Nation:
         self.political_freedom_score = .5 # Bounded 0 to 1
         self.economy_score = .5 # Bounded 0 to 1
         self.civil_rights_score = .5 # Bounded 0 to 1
+        
+        self.civic_score_history = {
+            "political_freedom": [float(self.political_freedom_score)],
+            "economy": [float(self.economy_score)],
+            "civil_rights": [float(self.civil_rights_score)],
+        }
+
 
         self.encountered_events = set()
     
@@ -91,72 +97,75 @@ class Nation:
         self.political_freedom_score = nation_types[self.nation_type]["political_freedom"]
         self.economy_score = nation_types[self.nation_type]["economy"]
         self.civil_rights_score = nation_types[self.nation_type]["civil_rights"]
-        self.overton_window_calculator()
+        
         print(f"Your nation will begin as: {self.nation_type}. Interesting choice.")
-    
-    def respond_to_event(self, event):
-        event.respond_to_event(self)
 
-    @staticmethod
     def overton_window_calculator(self):
         """ This function calculates the Overton Window of the nation based on the political freedom, economy, and civil rights scores."""
         pef = self.political_freedom_score
         ef = self.economy_score
         pof = self.civil_rights_score
+        current_nation_type = self.nation_type
         if pef <= 0.33 and ef <= 0.33 and pof <= 0.33: # Bottom of Personal Freedom Range
-            self.nation_type = "Psychotic Dictatorship"
+            new_nation_type = "Psychotic Dictatorship"
         elif pef <= 0.33 and ef <= 0.33 and (pof > 0.33 and pof <= 0.66):
-            self.nation_type = "Authoritarian Democracy"
+            new_nation_type = "Authoritarian Democracy"
         elif pef <= 0.33 and ef <= 0.33 and pof > 0.66:
-            self.nation_type = "Tyranny by Majority"
+            new_nation_type = "Tyranny by Majority"
         elif pef <= 0.33 and (ef > 0.33 and ef <= 0.66) and pof <= 0.33:
-            self.nation_type = "Iron Fist Consumerists"
+            new_nation_type = "Iron Fist Consumerists"
         elif pef <= 0.33 and ef > 0.66 and pof <= 0.33:
-            self.nation_type = "Corporate Police State"
+            new_nation_type = "Corporate Police State"
         elif pef <= 0.33 and (ef > 0.33 and ef <= 0.66) and (pof > 0.33 and pof <= 0.66):
-            self.nation_type = "Moralistic Democracy"
+            new_nation_type = "Moralistic Democracy"
         elif pef <= 0.33 and (ef > 0.33 and ef <= 0.66) and pof > 0.66:
-            self.nation_type = "Conservative Democracy"
+            new_nation_type = "Conservative Democracy"
         elif pef <= 0.33 and ef > 0.66 and (pof > 0.33 and pof <= 0.66):
-            self.nation_type = "Right-wing Utopia"
+            new_nation_type = "Right-wing Utopia"
         elif pef <= 0.33 and ef > 0.66 and pof > 0.66:
-            self.nation_type = "Free Wing Paradise"
+            new_nation_type = "Free Wing Paradise"
         elif (pef > 0.33 and pef <= 0.66) and ef <= 0.33 and pof <= 0.33: # Middle of Personal Freedom Range
-            self.nation_type = "Corrupt Dictatorship"
+            new_nation_type = "Corrupt Dictatorship"
         elif (pef > 0.33 and pef <= 0.66) and ef <= 0.33 and (pof > 0.33 and pof <= 0.66):
-            self.nation_type = "Democratic Socialists"
+            new_nation_type = "Democratic Socialists"
         elif (pef > 0.33 and pef <= 0.66) and ef <= 0.33 and pof > 0.66:
-            self.nation_type = "Liberal Democratic Socialists"
+            new_nation_type = "Liberal Democratic Socialists"
         elif (pef > 0.33 and pef <= 0.66) and (ef > 0.33 and ef <= 0.66) and pof <= 0.33:
-            self.nation_type = "Father Knows Best State"
+            new_nation_type = "Father Knows Best State"
         elif (pef > 0.33 and pef <= 0.66) and ef > 0.66 and pof <= 0.33:
-            self.nation_type = "Compulsory Consumerist State"
+            new_nation_type = "Compulsory Consumerist State"
         elif (pef > 0.33 and pef <= 0.66) and (ef > 0.33 and ef <= 0.66) and (pof > 0.33 and pof <= 0.66):
-            self.nation_type = "Inoffensive Centrist Democracy"
+            new_nation_type = "Inoffensive Centrist Democracy"
         elif (pef > 0.33 and pef <= 0.66) and (ef > 0.33 and ef <= 0.66) and pof > 0.66:
-            self.nation_type = "New York Times Democracy"
+            new_nation_type = "New York Times Democracy"
         elif (pef > 0.33 and pef <= 0.66) and ef > 0.66 and (pof > 0.33 and pof <= 0.66):
-            self.nation_type = "Capitalist Paradise"
+            new_nation_type = "Capitalist Paradise"
         elif (pef > 0.33 and pef <= 0.66) and ef > 0.66 and pof > 0.66:
-            self.nation_type = "Corporate Bordello"
+            new_nation_type = "Corporate Bordello"
         elif pef > 0.66 and ef <= 0.33 and pof <= 0.33: # Top of Personal Freedom Range
-            self.nation_type = "Iron Fist Socialist"
+            new_nation_type = "Iron Fist Socialist"
         elif pef > 0.66 and ef <= 0.33 and (pof > 0.33 and pof <= 0.66):
-            self.nation_type = "Scandinavian Liberal Paradise"
+            new_nation_type = "Scandinavian Liberal Paradise"
         elif pef > 0.66 and ef <= 0.33 and pof > 0.66:
-            self.nation_type = "Leftwing Utopia"
+            new_nation_type = "Leftwing Utopia"
         elif pef > 0.66 and (ef > 0.33 and ef <= 0.66) and pof <= 0.33:
-            self.nation_type = "Libertarian Police State"
+            new_nation_type = "Libertarian Police State"
         elif pef > 0.66 and ef > 0.66 and pof <= 0.33:
-            self.nation_type = "Benevolent Dictatorship"
+            new_nation_type = "Benevolent Dictatorship"
         elif pef > 0.66 and (ef > 0.33 and ef <= 0.66) and (pof > 0.33 and pof <= 0.66):
-            self.nation_type = "Left-Leaning College State"
+            new_nation_type = "Left-Leaning College State"
         elif pef > 0.66 and (ef > 0.33 and ef <= 0.66) and pof > 0.66:
-            self.nation_type = "Civil Rights Lovefest"
+            new_nation_type = "Civil Rights Lovefest"
         elif pef > 0.66 and ef > 0.66 and (pof > 0.33 and pof <= 0.66):
-            self.nation_type = "Capitalizt"
+            new_nation_type = "Capitalizt"
         elif pef > 0.66 and ef > 0.66 and pof > 0.66:
-            self.nation_type = "Anarchy"
+            new_nation_type = "Anarchy"
+        
+        if new_nation_type != current_nation_type:
+            print(f"Your nation has shifted from {current_nation_type} to {new_nation_type}.")
+            self.nation_type = new_nation_type
+
+
 
 
 def main():

@@ -7,24 +7,50 @@ import json
 import pickle
 import argparse
 
-def event_loop(nation_instance):
+def event_loop(nation_instance, event_type="political"):
+    """
+    Runs the event loop for the given nation instance.
+
+    Args:
+        nation_instance (Nation): The instance of the nation.
+        event_type (str, optional): The type of events to process. Defaults to "political".
+
+    Returns:
+        Nation: The updated nation instance after processing the events.
+    """
+    if event_type != "political":
+        raise NotImplementedError("Only political events are supported at this time.")
     encountered_events = nation_instance.encountered_events
     total_events = len(os.listdir("../event_storage"))
-    while event_index not in encountered_events:
+    # Choose a random event that the user hasn't encountered yet
+    event_index = np.random.randint(0, total_events)
+    while event_index in encountered_events:
         event_index = np.random.randint(0, total_events)
+    match event_type:
+        case "political":
+            filename = f"../event_storage/political_event_{event_index}.json"
+        case "economic":
+            raise NotImplementedError("Only political events are supported at this time.")
+        case "military":
+            raise NotImplementedError("Only political events are supported at this time.")
     
-    file_index = len(os.listdir("../event_storage")) // json_chunk_length
-    intrafile_index = event_index % json_chunk_length
-    with open(f"../event_storage/events_{file_index}.json", "r") as file:
-        event_data = json.load(file)
-        event = Event(event_data["event_index"]==intrafile_index)
-        response = event.respond_to_event(nation_instance)
-        event.apply_effects(nation_instance, response)
-        nation_instance.encountered_events.append(event_index)
-
+    event = event_from_json(filename) # Load event from file
+    response = event.respond_to_event(nation_instance) # Get user response
+    nation_instance.encountered_events.add(event_index) # Make sure that the user doesn't get the same event again
+    
     return nation_instance
 
 def runtime(load_existing_save=False, existing_save_path=None):
+    """
+    Runs the game loop for the Conquest game.
+
+    Args:
+        load_existing_save (bool, optional): Whether to load an existing save file. Defaults to False.
+        existing_save_path (str, optional): The path to the existing save file. Required if load_existing_save is True.
+
+    Returns:
+        None
+    """
     if load_existing_save and (existing_save_path is not None):
         assert os.path.exists(existing_save_path), "Invalid path to existing save file."
         try:
