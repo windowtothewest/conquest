@@ -1,8 +1,28 @@
 from nation import Nation
 from events import Event
+from event_generation import json_chunk_length
+import numpy as np
 import os
+import json
 import pickle
 import argparse
+
+def event_loop(nation_instance):
+    encountered_events = nation_instance.encountered_events
+    total_events = len(os.listdir("../event_storage"))
+    while event_index not in encountered_events:
+        event_index = np.random.randint(0, total_events)
+    
+    file_index = len(os.listdir("../event_storage")) // json_chunk_length
+    intrafile_index = event_index % json_chunk_length
+    with open(f"../event_storage/events_{file_index}.json", "r") as file:
+        event_data = json.load(file)
+        event = Event(event_data["event_index"]==intrafile_index)
+        response = event.respond_to_event(nation_instance)
+        event.apply_effects(nation_instance, response)
+        nation_instance.encountered_events.append(event_index)
+
+    return nation_instance
 
 def runtime(load_existing_save=False, existing_save_path=None):
     if load_existing_save and (existing_save_path is not None):
@@ -44,7 +64,7 @@ def runtime(load_existing_save=False, existing_save_path=None):
             print(f"Risky today, are we? Goodbye, {nation_instance.leader}.")
             game_continue = False
         else:
-            print("Invalid choice. Please try again.")
+            print("Invalid choice. Please enter the number corresponding to your desired action.")
 
 def main():
     runtime(load_existing_save=False, existing_save_path=None)

@@ -28,7 +28,8 @@ class Event:
         for choice in self.choices.keys():
             print(f"{choice} \n")
         response = survey_question("How will you choose to respond?", list(self.choices.keys()))
-
+        return response
+    
     def apply_effects(self, nation, response):
         if self.type == "political":
             nation.political_freedom_score += self.effects[response]["political_freedom"]

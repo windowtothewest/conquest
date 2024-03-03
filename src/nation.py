@@ -61,6 +61,8 @@ class Nation:
         self.political_freedom_score = .5 # Bounded 0 to 1
         self.economy_score = .5 # Bounded 0 to 1
         self.civil_rights_score = .5 # Bounded 0 to 1
+
+        self.encountered_events = set()
     
     @staticmethod
     def survey_question(question:str, choices:List[str]):
