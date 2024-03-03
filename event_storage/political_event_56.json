@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "Anthem Extravaganza",
+    "event_description": "In the lively nation of [Nation Name], an unexpected proposal has surfaced to introduce not one, but twenty-five new national anthems - one for each day of the month. The Minister of Cultural Affairs, known for their eccentric ideas, believes that a diverse range of anthems will boost national morale and creativity. Supporters argue that having a unique anthem for every day could enliven national events and make each day feel special. However, critics fear the confusion and chaos that could arise from changing anthems daily, not to mention the logistical nightmare of organizing such a vast repertoire.",
+    "event_options": [
+        {
+            "option_description": "Embrace the musical mosaic! Let's adopt the proposal and celebrate our diversity with a daily anthem rotation. Each day will be a new musical experience, showcasing the rich tapestry of our nation's identity.",
+            "option_outcome": "The nation becomes known worldwide for its innovative approach to national anthems, attracting music enthusiasts and artists from around the globe. National anthem concerts become a major tourist attraction.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.3,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Maintain tradition and unity. Reject the proposal and preserve our current national anthem. We should focus on other pressing issues rather than changing our anthem daily.",
+            "option_outcome":"The proposal is voted down, and the nation reaffirms its commitment to unity through a singular anthem. Traditionalists praise the decision, while some cultural groups express disappointment.",
+            "option_effects": {
+                "political_freedom": -0.1,
+                "economy": -0.2,
+                "civil_rights": -0.1
+            }
+        },
+        {
+            "option_description": "Find a compromise. Let's create a national anthem festival where different communities can showcase their anthems on special occasions. This way, we can celebrate diversity without the chaos of changing anthems daily.",
+            "option_outcome": "The national anthem festival becomes a major annual event, drawing crowds from diverse backgrounds and fostering unity through music. Local artists and musicians gain recognition on a national scale.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.1,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Use this opportunity to explore technological innovation. Let's develop an app that plays a different national anthem each day for interested citizens. This way, we can promote diversity while maintaining consistency.",
+            "option_outcome": "The national anthem app gains widespread popularity, becoming a symbol of the nation's commitment to both tradition and innovation. Tech companies invest in music-related projects, boosting the economy.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.4,
+                "civil_rights": 0.1
+            }
+        }
+    ]
+}

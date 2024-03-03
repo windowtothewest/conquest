@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Trash Talk Tragedy",
+    "event_description": "In the bustling metropolis of [Nation Name], a scandalous incident has unfolded, leading to a city-wide debate on waste management practices. It all started when a local neighborhood association accused the municipal waste collection agency of eavesdropping on citizens through specialized trash bins equipped with listening devices. The agency defended its actions, claiming it was a necessary step to monitor waste disposal habits and educate the public on recycling. The public is outraged, with some demanding immediate removal of the 'spying bins,' while others argue for their importance in promoting eco-friendly behaviors. The city is divided, with tensions rising as more details about the extent of surveillance emerge, leaving [Nation Name] in a state of trash-fueled turmoil.",
+    "event_options": [
+        {
+            "option_description": "Let's put an end to this invasive practice! Remove all listening devices from the trash bins and ensure citizens' right to privacy is respected.",
+            "option_outcome": "Public trust in the waste management agency is restored, but the sudden increase in unsorted waste overwhelms the recycling facilities, causing temporary disruptions in waste disposal services.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": -0.3,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "We can't throw the baby out with the bathwater. Keep the listening devices but implement strict regulations on data privacy and transparency. Citizens should know how their waste data is being used.",
+            "option_outcome":"A compromise is reached with the implementation of data protection laws for waste surveillance. The city becomes a model for balancing environmental awareness with individual rights.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.1,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Rather than spy on citizens, let's incentivize proper waste disposal through gamification. Introduce a reward system for households that separate and recycle their waste effectively.",
+            "option_outcome": "The city transforms into a game-like environment, with residents competing to earn waste management points and redeeming them for eco-friendly prizes. Waste separation rates hit an all-time high, boosting the city's green image.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.4,
+                "civil_rights": 0.0
+            }
+        },
+        {
+            "option_description": "This is a golden opportunity for waste innovation. Let's use the data collected from the listening devices to optimize waste collection routes and reduce carbon emissions.",
+            "option_outcome": "Efficient waste management leads to substantial fuel savings and a noticeable reduction in the city's carbon footprint, positioning [Nation Name] as a leader in sustainable waste practices.",
+            "option_effects": {
+                "political_freedom": 0.0,
+                "economy": 0.6,
+                "civil_rights": -0.1
+            }
+        }
+    ]
+}

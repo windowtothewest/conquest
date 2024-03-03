@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Crypto Craze",
+    "event_description": "In the technologically advanced nation of [Nation Name], a frenzy has erupted over the sudden surge in popularity of a new form of currency known as 'Mystery Coins'. These virtual coins, shrouded in secrecy and touted as the ultimate investment opportunity, have captured the imagination of the populace. Cryptocurrency enthusiasts are hailing it as the future of finance, while skeptics warn of potential scams and bubbles. As 'Mystery Coins' flood the digital marketplace, the government is faced with a dilemma - whether to embrace this new wave of financial innovation or crackdown on what could be a dangerous trend.",
+    "event_options": [
+        {
+            "option_description": "Let's ride the Crypto wave! Embrace 'Mystery Coins' as the official currency and create incentives for more citizens to invest in this cutting-edge form of wealth. We will be pioneers in the digital economy!",
+            "option_outcome": "The nation becomes a hotspot for cryptocurrency enthusiasts, with 'Mystery Coins' gaining widespread acceptance in everyday transactions. The government's forward-thinking approach boosts investor confidence and attracts tech companies to set up headquarters in [Nation Name].",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.7,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Cryptocurrencies are a bubble waiting to burst! Ban the use of 'Mystery Coins' and warn citizens of the risks involved in speculative investments. We must protect our economy from the volatility of virtual currencies.",
+            "option_outcome": "The government's ban sparks outrage among cryptocurrency enthusiasts, leading to underground 'Mystery Coin' trading rings and a wave of rebellious digital currency activism. The nation gains a reputation as a haven for crypto rebels.",
+            "option_effects": {
+                "political_freedom": -0.3,
+                "economy": -0.6,
+                "civil_rights": 0.0
+            }
+        },
+        {
+            "option_description": "Let's not jump to conclusions. Establish a government task force to investigate 'Mystery Coins' and draft regulations to ensure transparency and consumer protection in the cryptocurrency market. We can't ignore the potential benefits of digital currencies.",
+            "option_outcome": "The government's cautious approach earns praise from international financial regulators, positioning [Nation Name] as a model for responsible cryptocurrency governance. 'Mystery Coins' are subject to rigorous oversight, but innovation in the digital finance sector thrives under the nation's watchful eye.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.3,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Let's join the fun without the risk. Launch our own national cryptocurrency, 'Funky Funds', backed by virtual funky music and guaranteed to bring joy to all who invest. It's time to dance our way into the digital currency revolution!",
+            "option_outcome": "'Funky Funds' becomes a sensation, with citizens grooving to the beat of the new national cryptocurrency. The quirky branding and promise of musical returns attract investors from far and wide, establishing [Nation Name] as the quirky capital of digital finance.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.5,
+                "civil_rights": 0.1
+            }
+        }
+    ]
+}

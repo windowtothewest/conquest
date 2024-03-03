@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Grand Tourist Invasion",
+    "event_description": "In the picturesque nation of [Nation Name], an unexpected surge of tourists has descended upon the country, drawn by a viral social media video featuring a local goat that can balance a top hat on its head while riding a unicycle. This viral sensation has sparked a frenzy of tourism, with travelers from around the world flocking to see the talented goat in person. The influx of tourists has overwhelmed local infrastructure, with hotels fully booked, traffic jams on every road, and souvenir shops selling out of top hats. The citizens are torn between embracing the economic boon of tourism and preserving the tranquil beauty of their homeland.",
+    "event_options": [
+        {
+            "option_description": "Capitalize on the goat's fame by creating a 'Goat Tourism' campaign. Let's build goat-themed attractions, establish goat petting zoos, and even organize daily goat shows. The goat will become a national treasure and bring prosperity to our nation!",
+            "option_outcome": "The goat becomes an international sensation, with tourists coming not just for the goat but for the entire goat-themed experience. The nation's economy booms, but some locals start petitioning for 'goat-free zones' in certain areas.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.7,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "Implement strict tourist quotas and regulations to protect our environment and culture. Let's limit the number of tourists, set designated tourist zones, and enforce 'goat etiquette' rules to maintain order and respect for our traditions.",
+            "option_outcome": "Tourism becomes more controlled and sustainable, with an emphasis on preserving the nation's natural beauty and cultural heritage. The goat becomes a symbol of responsible tourism, and the locals start wearing top hats in solidarity.",
+            "option_effects": {
+                "political_freedom": -0.3,
+                "economy": -0.4,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Embrace the chaos and turn it into an opportunity for cultural exchange. Let's organize goat-themed festivals, offer goat-riding lessons for tourists, and launch a 'Goat Ambassador' program to promote intercultural understanding through the goat's antics.",
+            "option_outcome": "The nation becomes known for its unique goat-centric events, attracting a diverse array of tourists interested in the cultural exchange. The goat is hailed as a symbol of peace and unity, and some tourists even start dressing like goats in solidarity.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.5,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Launch a 'Goat Migration Project' to relocate the famous goat to a remote island, where it can live in peace without the constant attention. The island will become a 'Goat Sanctuary' and a tourist destination on its own, preserving the goat's dignity and our nation's tranquility.",
+            "option_outcome": "The goat sanctuary becomes a hit tourist spot, with visitors flocking to see the goat in its natural habitat. The main island experiences a decrease in tourist traffic, allowing the locals to reclaim their peaceful way of life.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.1,
+                "civil_rights": 0.4
+            }
+        }
+    ]
+}

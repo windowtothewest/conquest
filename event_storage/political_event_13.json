@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Youth Engagement Extravaganza",
+    "event_description": "In the vibrant nation of [Nation Name], a wave of youthful enthusiasm is sweeping across the country as a result of a viral TikTok video showcasing the power of civic engagement. The nation's youth, inspired by the video, have taken to the streets with colorful banners and catchy chants, demanding that the government address pressing youth issues such as access to affordable education and job opportunities. This unexpected surge of political activism among the youth has caught the attention of politicians and policymakers, who now find themselves faced with a new generation of citizens demanding their voices be heard.",
+    "event_options": [
+        {
+            "option_description": "Embrace the youth revolution! Let's create a National Youth Advisory Council composed of young citizens to provide input on policies affecting the youth. This will ensure that their voices are heard and included in decision-making processes.",
+            "option_outcome": "The National Youth Advisory Council becomes a driving force for change, advocating for policies that prioritize youth needs and concerns, ultimately leading to increased youth participation in the political process.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.1,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "This enthusiasm must be channeled effectively. Let's organize a Youth Engagement Carnival where young citizens can learn about the political process through fun games and activities. This will educate and engage the youth in a lighthearted way.",
+            "option_outcome":"The Youth Engagement Carnival becomes a massive hit, attracting thousands of young participants eager to learn about politics. The event sparks a newfound interest in civic engagement among the youth, leading to increased voter turnout in the next elections.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.0,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Engage with the youth on their turf. Let's launch a national social media campaign targeting platforms popular among young people to raise awareness about youth-related issues and encourage active participation in political discussions.",
+            "option_outcome": "The social media campaign goes viral, reaching millions of young users who become actively involved in advocating for youth-centric policies. Politicians are urged to address youth concerns to secure the youth vote in upcoming elections.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.0,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "This is an opportunity to empower the youth with practical skills. Let's establish a Youth Empowerment Program that offers workshops on leadership, public speaking, and community organizing to equip young citizens with the tools to effect positive change.",
+            "option_outcome": "The Youth Empowerment Program transforms hesitant youth into confident leaders, sparking a wave of youth-led initiatives that address pressing issues in the nation. The program becomes a model for youth engagement worldwide.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": -0.1,
+                "civil_rights": 0.4
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Riotous Parade Protest",
+    "event_description": "In the bustling streets of [Nation Name], a peculiar public demonstration has taken shape. What started as a regular protest against government policies quickly evolved into a riotous parade of absurdity. Citizens donned in outlandish costumes, dancing to unconventional music, and parading with hilarious protest signs that ranged from puns to nonsensical statements. The authorities are scratching their heads trying to comprehend this unusual form of dissent, while bystanders are both amused and confused by the spectacle unfolding before them. The question on everyone's minds is whether this riotous parade protest will lead to meaningful change or just be remembered as a quirky footnote in the nation's history.",
+    "event_options": [
+        {
+            "option_description": "Embrace the chaos! Let's join the riotous parade and turn it into a national festival of absurd expression. This is our chance to show the world our creativity and humor even in moments of dissent.",
+            "option_outcome": "The riotous parade protest becomes an annual event, attracting tourists from around the globe who appreciate the nation's unique approach to protesting. The event boosts morale and fosters a sense of unity among citizens.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.1,
+                "civil_rights": 0.5
+            }
+        },
+        {
+            "option_description": "Put an end to this mockery at once! Order the authorities to disperse the parade and arrest the organizers for disrupting public order.",
+            "option_outcome": "The crackdown on the riotous parade sparks outrage and defiance among the citizens, leading to further protests and calls for freedom of expression. The authorities struggle to contain the growing dissent.",
+            "option_effects": {
+                "political_freedom": -0.6,
+                "economy": -0.3,
+                "civil_rights": -0.4
+            }
+        },
+        {
+            "option_description": "Engage with the protesters and listen to their concerns. Offer to hold a public forum where the riotous parade participants can express their grievances in a more structured manner.",
+            "option_outcome": "The public forum turns into a lively debate where citizens engage in meaningful discussions about social issues. The riotous parade participants appreciate being heard and offer creative solutions to the problems facing the nation.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.2,
+                "civil_rights": 0.4
+            }
+        },
+        {
+            "option_description": "Organize a counter-parade with government officials and supporters to show unity and solidarity. Let's turn this riotous parade into a celebration of cooperation and understanding.",
+            "option_outcome": "The counter-parade fosters a sense of unity between the government and its supporters, showcasing a willingness to listen and engage with different perspectives. The riotous parade participants appreciate the gesture and are open to dialogue.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.4,
+                "civil_rights": 0.3
+            }
+        }
+    ]
+}

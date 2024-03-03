@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Absurd Government Shutdown",
+    "event_description": "In the whimsical nation of [Nation Name], an unexpected turn of events has led to a government shutdown like no other. It all began when the Minister of Silly Walks proposed a new law that required all government officials to incorporate a silly walk into their daily commutes around the capital. While some saw this as a lighthearted way to boost morale, others decried it as a blatant waste of time and taxpayer money. As tensions escalate, the government finds itself at a standstill, with officials unable to agree on the seriousness of incorporating absurdity into governance.",
+    "event_options": [
+        {
+            "option_description": "Embrace the silliness! Let's make the silly walk mandatory for all government officials, with special awards for the most creative walks. Laughter is the best medicine for a functioning government!",
+            "option_outcome": "The streets of the capital are filled with laughter as officials strut their stuff with elaborate silly walks. The nation gains a reputation for its unique approach to governance.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.3,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "This is a mockery of governance! We must end this frivolity and focus on serious matters. Enforce a strict ban on silly walks in government areas to restore respect for our institutions.",
+            "option_outcome":"Officials begrudgingly abandon their silly walks, leading to a return to a more solemn atmosphere in government buildings. The nation's reputation for quirky governance takes a hit, but efficiency sees a slight increase.",
+            "option_effects": {
+                "political_freedom": -0.3,
+                "economy": 0.1,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "Let's compromise. Allow government officials the choice to incorporate a silly walk into their routine, but only during designated break times. Balance humor with productivity to keep the government moving.",
+            "option_outcome": "Government employees embrace the compromise, showcasing their silly walks during breaks and fostering a light-hearted atmosphere without compromising on work efficiency.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.2,
+                "civil_rights": 0.0
+            }
+        },
+        {
+            "option_description": "Focus on the real issues at hand. Implement a temporary government shutdown until both sides can come to a reasonable agreement on the role of silliness in governance.",
+            "option_outcome": "The nation experiences a temporary government paralysis, with public services halted until officials reach a consensus. The populace is divided on the effectiveness of this drastic measure.",
+            "option_effects": {
+                "political_freedom": -0.2,
+                "economy": -0.5,
+                "civil_rights": -0.1
+            }
+        }
+    ]
+}

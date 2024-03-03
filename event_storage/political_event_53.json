@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Crypto Craze",
+    "event_description": "In the captivating nation of [Nation Name], a wave of excitement has swept through the population with the sudden surge in popularity of cryptocurrency. What started as a niche interest among tech enthusiasts has now turned into a national obsession, with citizens feverishly investing in various digital currencies, creating a booming crypto market within the country. This newfound fascination with decentralized finance has sparked debates among policymakers, economists, and the public on the implications of fully embracing a crypto-based economy.",
+    "event_options": [
+        {
+            "option_description": "Let's embrace the future of finance! We should become the world's first nation to fully adopt cryptocurrency as the official legal tender. This bold move will put us at the forefront of financial innovation and attract global attention.",
+            "option_outcome": "International media dub [Nation Name] as the 'Crypto Capital of the World', leading to a surge in crypto investments, blockchain startups, and technological advancements in the country.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.9,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "Proceed with caution. While cryptocurrency offers exciting prospects, we must regulate its use to prevent fraud, money laundering, and market manipulation. Let's establish a Cryptocurrency Regulatory Authority to oversee the crypto ecosystem.",
+            "option_outcome": "The establishment of the Authority restores public trust in cryptocurrencies, paving the way for responsible innovation and investment in the digital asset space.",
+            "option_effects": {
+                "political_freedom": -0.1,
+                "economy": 0.5,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Crypto is too volatile and risky for our nation. We should ban all forms of cryptocurrency to protect our economy and citizens from potential financial instability and scams.",
+            "option_outcome": "The ban on cryptocurrency leads to a black market for digital assets, driving underground crypto trading and creating a parallel economy outside the government's control.",
+            "option_effects": {
+                "political_freedom": -0.3,
+                "economy": -0.7,
+                "civil_rights": -0.4
+            }
+        },
+        {
+            "option_description": "Let's leverage cryptocurrency for social good. Establish a national charity fund that accepts only cryptocurrency donations to support various social causes and initiatives.",
+            "option_outcome": "The Crypto Charity Fund gains international recognition for its innovative approach to philanthropy, attracting crypto philanthropists and driving positive social impact in [Nation Name].",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.3,
+                "civil_rights": 0.5
+            }
+        }
+    ]
+}

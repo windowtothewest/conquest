@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Catastrophic Clown Crisis",
+    "event_description": "In the whimsical nation of [Nation Name], a disastrous clown incident has sparked widespread panic and raised concerns about disaster preparedness. During a routine juggling performance by the national clown troupe, a series of mishaps led to a chain reaction of balloon explosions, unicycles careening out of control, and a confetti cannon misfire that resulted in chaos and confusion. As citizens reflect on the nation's readiness for unforeseen disasters, debate rages on whether clown-related emergencies should be officially added to the national disaster response plans. Some argue for comprehensive clown safety training programs, while others propose a complete ban on clowns to prevent future calamities. The nation is divided between those who see clowns as symbols of joy and entertainment and those who now view them with trepidation and fear.",
+    "event_options": [
+        {
+            "option_description": "We must prioritize clown safety and disaster preparedness. Establish a Clown Emergency Response Team (CERT) trained in handling clown-related incidents and ensuring the well-being of both clowns and citizens.",
+            "option_outcome": "The nation becomes a global leader in clown safety, with the formation of the CERT praised by international organizations. Clowns are now seen as responsible performers, boosting the nation's image.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.3,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Ban clowns altogether to prevent future disasters. Implement a Clown Prohibition Act that outlaws clown performances and encourages alternative forms of entertainment.",
+            "option_outcome": "The Clown Prohibition Act sparks a resurgence in alternative entertainment forms such as mime shows, acrobatics, and magic acts. Clowns become a distant memory, and citizens find new sources of amusement.",
+            "option_effects": {
+                "political_freedom": -0.5,
+                "economy": 0.1,
+                "civil_rights": -0.4
+            }
+        },
+        {
+            "option_description": "Invest in advanced clown disaster preparedness training and equipment. Develop state-of-the-art clown safety gear and establish clown evacuation protocols to be prepared for any clown-related emergencies.",
+            "option_outcome": "The nation's innovative clown safety measures attract clown performers from around the world seeking a safe performance environment. The Clown Safety Institute is established as a center of excellence in clown disaster preparedness.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.5,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Use this crisis to educate the public on disaster awareness and preparedness as a whole. Launch a national Clown-Free Disaster Preparedness Campaign to raise awareness about general disaster readiness.",
+            "option_outcome": "The Clown-Free Disaster Preparedness Campaign gains international recognition as a creative and effective disaster awareness initiative. Citizens become more prepared for disasters of all kinds, not just clown-related.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": -0.2,
+                "civil_rights": 0.3
+            }
+        }
+    ]
+}

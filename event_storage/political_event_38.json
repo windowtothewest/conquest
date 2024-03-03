@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Crypto Craze",
+    "event_description": "In the bustling nation of [Nation Name], a sudden surge of interest in cryptocurrency has taken hold of both the tech-savvy youth and the seasoned investors. With memes about Dogecoin flooding social media and Bitcoin billionaires making headlines, the government is facing a dilemma. Some officials see this as an opportunity to embrace the digital currency revolution and position the nation as a global leader in blockchain technology. Others are skeptical, warning of the risks of unregulated markets and the potential for financial instability. Citizens are divided, with some flocking to invest in the latest altcoins while others prefer the stability of traditional banking systems.",
+    "event_options": [
+        {
+            "option_description": "Let's ride the crypto wave! Establish a government-backed digital currency and provide incentives for businesses to accept cryptocurrency payments. Embrace the future of finance and show the world that [Nation Name] is at the forefront of innovation.",
+            "option_outcome": "Cryptocurrency transactions become mainstream in [Nation Name], attracting tech companies and blockchain enthusiasts to set up businesses in the nation. The government's proactive stance on digital currency brings economic growth and international recognition.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.9,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Beware the crypto bubble! Implement strict regulations on cryptocurrency trading to protect citizens from potential scams and market manipulations. Focus on educating the public about the risks associated with volatile digital assets.",
+            "option_outcome": "The government crackdown on cryptocurrency speculation leads to a decrease in investment frenzy but also prevents several Ponzi schemes from taking root. Citizen awareness about the risks of crypto investments increases, promoting financial literacy.",
+            "option_effects": {
+                "political_freedom": -0.1,
+                "economy": -0.3,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Dive into the world of DeFi! Allocate resources to promote decentralized finance projects and encourage blockchain startups to revolutionize our financial sector. Let's create a crypto-friendly environment that fosters innovation.",
+            "option_outcome": "Decentralized finance flourishes in [Nation Name], attracting global attention and investment. The nation becomes a hub for blockchain innovation, with DeFi platforms gaining popularity and revolutionizing traditional banking practices.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.7,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Stick to traditional banking! Maintain a cautious approach towards cryptocurrency adoption and focus on strengthening our existing financial institutions. We can't risk destabilizing our economy with untested digital currencies.",
+            "option_outcome": "The nation remains conservative in its approach to cryptocurrency, relying on traditional banking systems for financial stability. While missing out on the crypto boom, the economy maintains a certain level of predictability and security.",
+            "option_effects": {
+                "political_freedom": -0.2,
+                "economy": 0.1,
+                "civil_rights": -0.1
+            }
+        }
+    ]
+}

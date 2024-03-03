@@ -1,0 +1,44 @@
+{
+    "event_index": 0,
+    "event_type": "political",
+    "event_title": "The Tourist Tumult",
+    "event_description": "In the bustling nation of [Nation Name], a major uproar has occurred in the tourism industry due to the sudden revelation that a secret council of squirrels has been influencing the choice of tourist attractions for years. These highly secretive squirrels have allegedly been whispering suggestions into the ears of government officials, steering the nation's tourism policies towards places that cater to their nut-loving preferences. The public is shocked by this revelation, with some citizens finding it absurdly funny while others express outrage at this blatant misuse of power.",
+    "event_options": [
+        {
+            "option_description": "Embrace the squirrel council's influence! Let's create specially curated squirrel-friendly tourist spots to cater to our secret overlords. They must be onto something if they have been doing this for years.",
+            "option_outcome": "Squirrel tourism booms as visitors from all over the world come to witness the unique squirrel-approved attractions. The nation gains a quirky reputation as the must-visit destination for squirrel enthusiasts.",
+            "option_effects": {
+                "political_freedom": -0.2,
+                "economy": 0.5,
+                "civil_rights": -0.1
+            }
+        },
+        {
+            "option_description": "Expose and expel these squirrel manipulators from our tourism decisions! We cannot allow these furry creatures to dictate our national policies. Let's regain control over our tourist destinations.",
+            "option_outcome":"The squirrel council is ousted, and an investigation into their influence leads to a revamp of tourist spots to reflect the diverse preferences of the population.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": -0.3,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Let's turn this squirrel scandal into a positive. Launch a 'Squirrel Safari' tourism campaign where visitors can go on guided tours to spot the influential squirrels. It's a quirky twist that could attract curious travelers looking for an offbeat experience.",
+            "option_outcome": "The 'Squirrel Safari' becomes a viral sensation, drawing in tourists eager to catch a glimpse of the infamous squirrel council members. The nation's tourism industry experiences a surge in revenue.",
+            "option_effects": {
+                "political_freedom": -0.1,
+                "economy": 0.7,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "Use this opportunity for environmental conservation! Propose a plan to protect the habitats of these influential squirrels and promote eco-tourism initiatives that educate visitors about wildlife preservation.",
+            "option_outcome": "Eco-tourism flourishes as the nation becomes known for its commitment to wildlife conservation. The squirrel council's habitats are preserved, attracting nature lovers and boosting the economy sustainably.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.6,
+                "civil_rights": 0.1
+            }
+        }
+    ]
+}

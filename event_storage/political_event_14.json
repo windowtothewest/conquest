@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Secret Sock Surveillance Act",
+    "event_description": "In the shadowy corridors of power in [Nation Name], whispers abound of a classified government program known as the Secret Sock Surveillance Act. This clandestine operation allegedly allows the National Security Agency to monitor citizens' sock drawer contents in the name of national security. Rumors suggest that certain patterns or colors are flagged as potential indicators of subversive activities, leading to midnight sock raids and covert sock interrogations. Civil liberties activists are outraged, while government officials maintain that safeguarding the nation against sock-based threats is paramount in these uncertain times.",
+    "event_options": [
+        {
+            "option_description": "To protect our nation, we must expand the Secret Sock Surveillance Act to include underwear monitoring as well. We cannot be complacent in the face of potential undergarment threats!",
+            "option_outcome": "The surveillance program expands to include underwear monitoring, sparking outrage among privacy advocates and leading to an increase in undercover fashion police operations.",
+            "option_effects": {
+                "political_freedom": -0.4,
+                "economy": 0.0,
+                "civil_rights": -0.6
+            }
+        },
+        {
+            "option_description": "This intrusion into our drawers is a violation of our privacy rights. We must dismantle the Secret Sock Surveillance Act immediately and hold those responsible for its implementation accountable.",
+            "option_outcome": "The Secret Sock Surveillance Act is repealed, leading to protests and a public outcry against government surveillance overreach. The government faces scrutiny over its secretive programs.",
+            "option_effects": {
+                "political_freedom": 0.8,
+                "economy": -0.2,
+                "civil_rights": 0.7
+            }
+        },
+        {
+            "option_description": "Let's leverage the data collected from sock surveillance for a national fashion database. By analyzing sock trends, we can boost our textile industry and establish ourselves as a fashion trendsetter.",
+            "option_outcome": "The government launches the National Sock Fashion Index, leading to unexpected economic growth in the textile sector and a newfound obsession with sock fashion across the nation.",
+            "option_effects": {
+                "political_freedom": -0.1,
+                "economy": 0.6,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "Instead of spying on socks, let's focus on real security threats. Allocate resources to enhance cybersecurity measures to protect against digital espionage and hacking attacks.",
+            "option_outcome": "Funding is redirected towards cybersecurity initiatives, bolstering the nation's digital defenses and leading to a significant decrease in cybercrime rates.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": 0.3,
+                "civil_rights": 0.4
+            }
+        }
+    ]
+}

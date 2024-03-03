@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Great Disaster Dilemma",
+    "event_description": "In the whimsical nation of [Nation Name], a surprising revelation shakes the land. An ancient prophecy buried deep within a dusty tome foretells of a catastrophic disaster looming on the horizon. While some dismiss it as mere folklore, others take it as a sign to prepare for the worst. The debate rages on whether to invest resources in disaster preparedness or to continue living carefree and hope for the best. Citizens are split between those who stockpile emergency supplies and build underground bunkers, and those who plan disaster-themed parties to 'celebrate life' in the face of impending doom.",
+    "event_options": [
+        {
+            "option_description": "Embrace the prophecy and mobilize our resources for disaster preparedness! We shall build shelters, stockpile supplies, and train our citizens to face any calamity head-on.",
+            "option_outcome": "The nation becomes a beacon of disaster resilience, showcasing its preparedness in international forums and attracting disaster management experts to learn from their unique approach.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.3,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Ignore the prophecy and carry on with our daily lives! Why waste resources on what may never come to pass? Let's focus on enjoying the present instead of worrying about an uncertain future.",
+            "option_outcome": "The citizens throw a 'Disaster Denial' festival, celebrating their carefree attitude and showcasing their commitment to living in the moment. It becomes a quirky tourist attraction, drawing visitors from all over.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": 0.4,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "Combine disaster preparedness with a touch of humor! Let's organize disaster-themed parties and events while also setting aside resources for emergency plans. Who said preparing for doom can't be fun?",
+            "option_outcome": "The nation's disaster preparedness initiatives take a unique turn, blending practicality with a sense of humor. The 'Laugh in the Face of Disaster' campaign goes viral, bringing a lighthearted approach to serious preparation.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": -0.1,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Use the prophecy as a catalyst for technological innovation! Let's invest in cutting-edge disaster-resistant infrastructure and advanced warning systems to protect our nation from potential calamities.",
+            "option_outcome": "[Nation Name] becomes a pioneer in disaster tech, developing state-of-the-art early warning systems and disaster-proof buildings. The expertise attracts international collaborations and positions the nation as a leader in disaster prevention technology.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.7,
+                "civil_rights": 0.2
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Great Speech Spectacle",
+    "event_description": "In the land of [Nation Name], a peculiar phenomenon has taken hold - public speaking has been declared the national sport! What started as a friendly competition between rival speech clubs escalated into a full-blown craze, with citizens flocking to stadiums to watch eloquent orators battle it out with words instead of swords. The most recent championship saw a record-breaking attendance, with fans waving banners and cheering for their favorite speakers as if they were sporting heroes. The government, caught off guard by this unexpected turn of events, now faces a dilemma on how to regulate and capitalize on this newfound passion for persuasive rhetoric.",
+    "event_options": [
+        {
+            "option_description": "Embrace the power of public speaking! Establish a national public speaking league with formalized tournaments, professional speakers, and lucrative sponsorships. Let's turn eloquence into a national pastime!",
+            "option_outcome": "Public speaking becomes a prestigious career path, attracting talent from all corners of the nation. The national economy experiences a boost from the new industry of speechwriting, training, and event management.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.7,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "This is madness! Public speaking should be kept as a hobby, not a competitive sport. Enact regulations to limit the size and scope of public speaking events, ensuring that this craze does not overshadow more traditional forms of entertainment.",
+            "option_outcome": "The government imposes strict regulations on public speaking events, leading to the formation of underground speaking clubs. The nation experiences a resurgence in interest in traditional cultural performances.",
+            "option_effects": {
+                "political_freedom": -0.4,
+                "economy": -0.1,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Let's leverage this enthusiasm for public speaking to promote important social causes. Encourage speakers to use their platform to raise awareness about issues such as education, healthcare, and equality. Turn speeches into agents of positive change!",
+            "option_outcome": "Public speakers become beacons of advocacy, driving social movements and influencing government policies. The nation sees a significant improvement in awareness and action on key social issues.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": 0.1,
+                "civil_rights": 0.6
+            }
+        },
+        {
+            "option_description": "This obsession with public speaking is getting out of hand. Channel this energy into more practical pursuits like debate clubs or professional development workshops. Let's ensure that eloquence is complemented by substance.",
+            "option_outcome": "The nation shifts focus towards fostering critical thinking skills and intellectual discourse. Public speaking is reimagined as a tool for constructive dialogue and problem-solving.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.2,
+                "civil_rights": 0.3
+            }
+        }
+    ]
+}

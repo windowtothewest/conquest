@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Climate Change Controversy",
+    "event_description": "In the eco-conscious nation of [Nation Name], a heated debate has ignited over the government's proposed plan to combat climate change by implementing a mandatory 'Go Green or Go Home' policy. This policy requires all households to reduce their carbon footprint by 50% within the next year, or face relocation to specially designated 'Eco-Cities' where sustainable living practices are strictly enforced. Environmental activists praise the bold move as a necessary step towards a greener future, while skeptics argue that it infringes on personal freedom and will lead to chaos and mass protests in the streets.",
+    "event_options": [
+        {
+            "option_description": "Embrace the green revolution! Let's implement the 'Go Green or Go Home' policy without exceptions. It's time for every citizen to take responsibility for their carbon emissions and lead by example.",
+            "option_outcome": "Carbon emissions plummet across the nation, leading to a significant decrease in pollution levels and a surge in eco-friendly innovations. [Nation Name] becomes a global leader in sustainable living.",
+            "option_effects": {
+                "political_freedom": -0.3,
+                "economy": 0.5,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "This policy is too extreme. Let's soften the blow by offering incentives and subsidies to households that voluntarily reduce their carbon footprint. Encouragement rather than enforcement is the key to a successful green transition.",
+            "option_outcome": "Many households voluntarily adopt eco-friendly practices to benefit from the incentives, leading to a gradual but steady reduction in carbon emissions. The government's approach receives international praise for its effectiveness.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.3,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Instead of forcing relocation, let's create 'Eco-Kits' for households to easily implement green measures. Provide free solar panels, recycling systems, and energy-efficient appliances to jumpstart the green transition without uprooting families.",
+            "option_outcome": "Households enthusiastically adopt the Eco-Kits, leading to a rapid decrease in carbon emissions without the need for drastic measures. [Nation Name] becomes a model for sustainable living practices.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.4,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Let's approach this from a different angle. Launch a nationwide campaign to plant a million trees in a year, emphasizing the importance of reforestation in combating climate change. This way, we empower citizens to be part of the solution.",
+            "option_outcome": "The 'Million Tree Movement' captures the nation's imagination, with citizens enthusiastically participating in tree planting events. The increased greenery not only aids in carbon sequestration but also boosts morale and community spirit.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.1,
+                "civil_rights": 0.5
+            }
+        }
+    ]
+}

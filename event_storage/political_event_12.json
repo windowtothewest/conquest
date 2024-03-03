@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Grand March of Military Might",
+    "event_description": "In the eccentric nation of [Nation Name], a proposal has been put forward to hold a series of extravagant military parades to showcase the nation's military prowess. The idea, pitched by an enthusiastic general who believes the sight of tanks, jets, and soldiers marching in unison will boost national pride and deter potential aggressors, has ignited a fierce debate across the country. Supporters see it as a chance to display strength and unity, while opponents argue that such displays are outdated, costly, and only serve to glorify war.",
+    "event_options": [
+        {
+            "option_description": "Let's go all out with these military parades! We must show the world the might of our armed forces. The parades will instill fear in our enemies and pride in our citizens.",
+            "option_outcome": "The lavish military parades captivate the nation and the world, boosting patriotic fervor among the population and projecting an image of invincibility to potential adversaries.",
+            "option_effects": {
+                "political_freedom": -0.2,
+                "economy": -0.5,
+                "civil_rights": -0.3
+            }
+        },
+        {
+            "option_description": "Military parades are a relic of the past. Let's invest in peaceful public celebrations that promote unity and diversity. We can showcase our culture and creativity without glorifying warfare.",
+            "option_outcome": "Innovative cultural festivals replace the military parades, drawing praise for their inclusivity and artistic expression. The nation's reputation for creativity and peaceful coexistence grows internationally.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.2,
+                "civil_rights": 0.5
+            }
+        },
+        {
+            "option_description": "Why not combine tradition with modernity? Let's host military parades but focus on displaying humanitarian efforts, disaster relief capabilities, and unity with our global allies. A parade for peace and cooperation!",
+            "option_outcome": "The unique approach to military parades garners international acclaim, showcasing the nation's commitment to peace and cooperation. The emphasis on humanitarian aspects leads to increased foreign aid and collaboration.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.1,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Instead of military parades, let's channel that enthusiasm into supporting our veterans and improving their quality of life. A nation's strength is measured by how it treats its defenders, not by grand displays of might.",
+            "option_outcome": "Veteran support programs flourish, receiving unprecedented public backing and funding. The well-being of veterans improves, leading to increased morale and cohesion within the armed forces.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.1,
+                "civil_rights": 0.4
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Unconventional Census Quest",
+    "event_description": "In the whimsical land of [Nation Name], the government has embarked on a peculiar mission to conduct the most unique census ever seen. Instead of traditional methods, they have decided to send out census takers dressed as medieval knights, complete with shining armor and feathered caps, to knock on every door and demand to know the occupation of every inhabitant. The streets are filled with the clinking of armor and the sound of lutes playing in the background as this unusual census quest unfolds. The citizens are torn between amusement at the spectacle and frustration at the inconvenience of being asked for their profession by a supposed knight of the realm.",
+    "event_options": [
+        {
+            "option_description": "Let's fully embrace this medieval theme! Require all citizens to respond to the census in old English and award those who do so with a special 'Knight of the Census' certificate. This will make the census a memorable event for all!",
+            "option_outcome": "The 'Knight of the Census' certificates become prized possessions, and the nation gains recognition for its innovative approach to census-taking.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": -0.3,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "This is getting out of hand. We need to put a stop to this absurdity and conduct the census in a more conventional manner. Let's bring back the census takers from the medieval fantasy and replace them with modern, efficient surveyors.",
+            "option_outcome":"The citizens breathe a sigh of relief as the medieval census quest is called off, and the data collection process becomes more streamlined and less theatrical.",
+            "option_effects": {
+                "political_freedom": -0.2,
+                "economy": 0.4,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "This is a golden opportunity for tourism! Let's turn the census into a full-fledged medieval festival, complete with jousting tournaments and ale-drinking contests. The census takers can double as entertainers, and everyone wins!",
+            "option_outcome": "The Census Festival becomes a yearly tradition, attracting tourists from far and wide, boosting the economy, and creating a unique cultural phenomenon.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.7,
+                "civil_rights": -0.1
+            }
+        },
+        {
+            "option_description": "Instead of focusing on occupations, let's use this census as an opportunity to collect data on everyone's favorite mythical creature. Why be mundane when we can have statistics on the prevalence of unicorns, dragons, and griffins in our nation?",
+            "option_outcome": "The census results reveal a surprisingly high number of citizens claiming to cohabitate with mythical creatures, sparking a nationwide debate on the existence of such beings.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.1,
+                "civil_rights": 0.5
+            }
+        }
+    ]
+}

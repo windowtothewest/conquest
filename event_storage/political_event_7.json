@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Invisible Government Files",
+    "event_description": "In the mysterious nation of [Nation Name], a shocking discovery has been made regarding the government's transparency levels. A group of investigative journalists stumbled upon a hidden vault deep beneath the capital city, containing classified files that detail the inner workings of a secret government agency known only as 'The Ministry of Shadows'. These files reveal clandestine operations, covert missions, and undisclosed budgets that have been kept hidden from the public eye for decades. As the news breaks, citizens demand answers, activists stage protests calling for accountability, and conspiracy theorists speculate wildly about the true extent of the shadowy government's reach.",
+    "event_options": [
+        {
+            "option_description": "Illuminate the shadows! We must open all government files to public scrutiny, dismantle 'The Ministry of Shadows', and ensure total transparency in governance. The people deserve to know the truth!",
+            "option_outcome": "The nation witnesses a surge in civic engagement and trust in government as transparency becomes the norm. 'The Ministry of Shadows' is disbanded, and its operatives are reassigned to open government initiatives.",
+            "option_effects": {
+                "political_freedom": 0.9,
+                "economy": -0.3,
+                "civil_rights": 0.7
+            }
+        },
+        {
+            "option_description": "Don't be fooled by these distractions! 'The Ministry of Shadows' is a necessary evil for national security. We must maintain secrecy to protect the nation from unseen threats. Trust in the shadow government to do what is best for all of us.",
+            "option_outcome":"The veil of mystery shrouding 'The Ministry of Shadows' remains intact, with citizens divided between those who believe in the need for secrecy and those who demand transparency. The shadow agency continues its clandestine operations under increased public scrutiny.",
+            "option_effects": {
+                "political_freedom": -0.6,
+                "economy": 0.1,
+                "civil_rights": -0.4
+            }
+        },
+        {
+            "option_description": "Let's meet halfway. We will declassify some government files to address public concerns, but 'The Ministry of Shadows' will remain operational under strict oversight and periodic audits to prevent abuse of power.",
+            "option_outcome": "A delicate balance is struck between transparency and secrecy, with limited information released to the public. 'The Ministry of Shadows' is rebranded as 'The Department of Strategic Intelligence' with a focus on transparency and accountability.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": -0.2,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Unleash the conspiracy theorists! Embrace the intrigue and mystery of 'The Ministry of Shadows' to captivate the nation's imagination. Turn the hidden files into a national treasure hunt, with clues leading to government secrets and prizes for the truth seekers.",
+            "option_outcome": "The nation becomes enamored with government conspiracy theories, spawning a new industry of conspiracy-themed merchandise and tours. 'The Ministry of Shadows' gains a cult following, with citizens trying to decipher its enigmatic symbols and messages.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.4,
+                "civil_rights": -0.1
+            }
+        }
+    ]
+}

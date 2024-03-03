@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Sporty Wager War",
+    "event_description": "In the adrenaline-fueled nation of [Nation Name], a controversy has erupted over the legalization of sports betting. A local sports fanatic turned politician has proposed a bill to legalize betting on all sports events, from the classic game of hopscotch to extreme pogo stick championships. This proposal has divided the nation, with traditionalists fearing the influence of gambling on sports integrity, while thrill-seekers see it as a golden opportunity to turn their sports passion into potential riches. The air is charged with excitement and tension as the fate of sports betting hangs in the balance.",
+    "event_options": [
+        {
+            "option_description": "Let the games begin! Legalize sports betting and establish a national sportsbook. Embrace the thrill of the wager and watch as our economy scores a winning goal with increased revenue from betting taxes.",
+            "option_outcome": "Sports betting becomes a national pastime, boosting the economy through increased tax revenue and creating a vibrant sports betting culture. The nation gains a reputation as the go-to destination for sports enthusiasts looking to place their bets.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.7,
+                "civil_rights": -0.1
+            }
+        },
+        {
+            "option_description": "Hold your horses! Reject the bill to legalize sports betting. Protect the purity of sports and prevent the corruption that comes with widespread gambling. Let's keep the thrill in the game, not in the bet.",
+            "option_outcome": "Sports betting remains illegal, preserving the sanctity of sports competition and maintaining a focus on the game itself. Traditional values uphold the integrity of sports, but underground betting rings start to emerge.",
+            "option_effects": {
+                "political_freedom": -0.3,
+                "economy": -0.2,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Why limit ourselves to conventional sports? Let's go all-in and legalize betting on extreme sports spectacles like skydiving squirrel races and underwater basket weaving tournaments. Push the boundaries of sports entertainment!",
+            "option_outcome": "The nation becomes a pioneer in bizarre sports betting opportunities, attracting thrill-seekers from around the globe. Unconventional sports gain a cult following, and the economy experiences a surge in revenue from niche sports betting.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.5,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "Channel the sports betting frenzy into a fundraising initiative for grassroots sports programs. Legalize betting but designate a portion of the profits to support local sports development, ensuring a win-win situation for both enthusiasts and aspiring athletes.",
+            "option_outcome": "Sports betting becomes a catalyst for funding grassroots sports programs, nurturing talent and promoting sports participation across all communities. The nation sees a rise in interest in sports at all levels, leading to a healthier population and a more active society.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.4,
+                "civil_rights": 0.2
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The National Park Parade",
+    "event_description": "In the vibrant nation of [Nation Name], a spontaneous and colorful parade has taken over the streets to celebrate the nation's iconic national parks. What started as a small gathering of nature enthusiasts quickly ballooned into a full-blown spectacle, with park rangers, wildlife mascots, and even a marching band showcasing the diversity and beauty of the country's natural heritage. As the parade winds its way through city streets, citizens find themselves caught up in the festive atmosphere, marveling at giant inflatable mountain replicas and intricate float designs depicting famous park landmarks. The event is a hit on social media, with hashtags like #ParkPride trending worldwide.",
+    "event_options": [
+        {
+            "option_description": "Let's turn this into an annual tradition! The National Park Parade will boost tourism to our parks and increase public appreciation for our natural wonders. We should invest in making it even grander next year.",
+            "option_outcome": "The National Park Parade becomes a marquee event, drawing visitors from around the globe and generating significant revenue for the tourism industry. Park attendance surges, and local businesses benefit from the influx of nature enthusiasts.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.6,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "While the parade is fun, we should focus on addressing the conservation challenges faced by our national parks. Let's allocate resources to protect endangered species, reduce pollution, and preserve the pristine beauty of our natural landscapes.",
+            "option_outcome":"By redirecting attention to conservation efforts, the nation sees a resurgence in environmental activism and community engagement. Local and international support pours in, leading to successful conservation projects and increased biodiversity in the parks.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": -0.2,
+                "civil_rights": 0.4
+            }
+        },
+        {
+            "option_description": "This parade is passé. Let's take it a step further and establish a National Park Fashion Show! Designers can create eco-friendly outfits inspired by the beauty of our parks, and the event can raise funds for park maintenance and protection.",
+            "option_outcome": "The National Park Fashion Show becomes a global sensation, attracting top designers and celebrities to showcase sustainable and nature-inspired fashion. Funds raised contribute to park conservation efforts, and the event ushers in a new era of eco-conscious couture.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.4,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "This parade is a distraction from more pressing issues. Let's enforce strict regulations on park visitation to reduce human impact on fragile ecosystems. Limiting the number of visitors will ensure the long-term preservation of our national treasures.",
+            "option_outcome": "By implementing visitor restrictions, the nation's parks see a significant improvement in environmental conservation. Wildlife populations rebound, and natural habitats thrive without the stress of excessive tourism. The move garners international praise for responsible stewardship of the nation's natural resources.",
+            "option_effects": {
+                "political_freedom": -0.1,
+                "economy": -0.3,
+                "civil_rights": 0.3
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Absurd Voting Vanguard",
+    "event_description": "In the whimsical realm of [Nation Name], a group of eccentric citizens known as the 'Absurd Voting Vanguard' has emerged with a peculiar demand. They insist that all voting ballots must be written in rhyme and that voters must perform a comedic dance before casting their vote. This unusual proposal has sparked a mix of reactions among the populace, with some finding it a hilarious twist on democracy and others deeming it a mockery of the voting process. As the debate rages on, the Absurd Voting Vanguard members have taken to the streets, wearing outrageous costumes and reciting poetry to garner support for their cause.",
+    "event_options": [
+        {
+            "option_description": "Join forces with the Absurd Voting Vanguard! Embrace the whimsy and incorporate rhyme ballots and dance routines into the voting process. Let's make democracy a carnival of creativity!",
+            "option_outcome": "Voting turnout skyrockets as citizens eagerly participate in the zany voting rituals. The nation gains a reputation for its innovative approach to democracy, attracting international attention.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": -0.2,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Reject this ludicrous proposal and uphold the sanctity of the voting booth. Voting is a serious matter, and we should not trivialize it with theatrics. Maintain the traditional voting process for the sake of democracy.",
+            "option_outcome":"The Absurd Voting Vanguard fades into obscurity, but a new wave of political satire emerges in [Nation Name], with humorous commentary on the current voting system gaining popularity.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.0,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Compromise with the Absurd Voting Vanguard by introducing a 'Whimsical Voting Day' where citizens can choose to participate in the rhyme-and-dance voting experience. Let's infuse a bit of fun into the electoral process without making it mandatory.",
+            "option_outcome": "On Whimsical Voting Day, the nation witnesses a mixture of laughter and confusion as some voters enthusiastically engage in the quirky rituals, while others prefer the traditional voting method. The event becomes an annual tradition, adding a touch of eccentricity to the political calendar.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.1,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Use this absurd proposal as a platform to raise awareness about the importance of voting rights and electoral integrity. Let's turn the spotlight on serious issues while acknowledging the need for creativity in engaging citizens.",
+            "option_outcome": "The Absurd Voting Vanguard transforms into a respected advocacy group for voter education and participation. Their outlandish approach draws attention to voting rights, sparking national conversations on democracy and civic engagement.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": 0.1,
+                "civil_rights": 0.4
+            }
+        }
+    ]
+}

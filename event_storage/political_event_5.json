@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Trade Treaty Tumble",
+    "event_description": "In the bustling nation of [Nation Name], a decades-old trade treaty with a neighboring country is on the brink of collapse. The treaty, initially crafted during a strange diplomatic event involving a mix-up of gift baskets containing exotic fruits and rare spices, has long been a symbol of the strong economic ties between the two nations. However, recent disputes over the misinterpretation of a clause related to the exchange of wooden clogs for high heels have led to tension and uncertainty. Business owners are worried about the sudden interruption of key imports, while diplomats frantically try to salvage what little remains of the once-promising agreement. As the clock ticks, the fate of [Nation Name]'s economy hangs in the balance.",
+    "event_options": [
+        {
+            "option_description": "Let's renegotiate the treaty with a modern twist! We propose a new clause that includes the exchange of traditional clothing alongside the wooden clogs and high heels. This cultural addition could revitalize the trade relations and add a dash of exotic flair!",
+            "option_outcome": "The revamped trade treaty becomes a hit sensation, boosting cultural exchange and tourism between the nations. Traditional clothing makers rejoice as their designs become highly sought after internationally.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.5,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Enough with the trade treaty drama! We should unilaterally terminate the agreement and focus on nurturing domestic industries. Let's show the world the power of self-sufficiency!",
+            "option_outcome":"[Nation Name] experiences a surge in domestic production and innovation as businesses redirect their focus internally. The move sparks national pride and a renewed interest in locally made products.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.7,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "It's time for a trade revolution! We must pivot towards new global markets and forge fresh partnerships beyond the aging treaty. Let's explore exotic trade opportunities that transcend the confines of conventional commerce.",
+            "option_outcome": "By diversifying trade routes and embracing innovative partnerships, [Nation Name] opens up new avenues for growth and prosperity. The nation becomes known for its daring approach to trade, attracting global attention and admiration.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.9,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "As the scramble for a solution ensues, we must consider a covert operation to retrieve the lost diplomatic gift baskets that sparked this chaos. With the right stealth tactics, we can reclaim the misinterpreted items and restore order to the trade treaty debacle.",
+            "option_outcome": "The daring covert operation succeeds, restoring the original gift baskets to their intended recipients and resolving the misunderstanding. The bizarre incident becomes a legendary tale of diplomatic intrigue and crisis management.",
+            "option_effects": {
+                "political_freedom": -0.1,
+                "economy": 0.1,
+                "civil_rights": -0.1
+            }
+        }
+    ]
+}

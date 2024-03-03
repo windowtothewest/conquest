@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Outrageous Fashion Fiasco",
+    "event_description": "In the eclectic nation of [Nation Name], a sudden uproar has erupted over the enforcement of a long-forgotten national dress code law that mandates all citizens wear polka dot socks on Fridays. This quirky regulation, buried deep in the archives of outdated fashion decrees, resurfaced when a group of enthusiastic cosplayers stumbled upon it while researching historical attire for their latest costume party. As news of this colorful mandate spreads, fashionistas clash with traditionalists, sparking debates on individual expression, societal conformity, and the essence of a truly stylish society.",
+    "event_options": [
+        {
+            "option_description": "Let's celebrate diversity in fashion! Embrace the polka dot revolution and declare Fridays as 'Socks and Spots Day' nationwide. Encourage citizens to flaunt their polka dot socks with pride!",
+            "option_outcome": "Polka dot socks become a symbol of unity and creativity, leading to a surge in local sock designers and a revitalization of the sock industry.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.3,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Enough with this frivolous dictate! Repeal the outdated dress code law and respect individual freedom of expression. Let fashion be a personal statement, not a state-mandated obligation.",
+            "option_outcome":"Citizens rejoice in their newfound fashion freedom, exploring a myriad of sock styles beyond polka dots. Local fashion markets boom with innovative sock designs catering to diverse tastes.",
+            "option_effects": {
+                "political_freedom": 0.6,
+                "economy": 0.5,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Embrace the nostalgia and make polka dot socks a national emblem. Encourage local artisans to handcraft unique polka dot designs, weaving a tapestry of tradition and creativity.",
+            "option_outcome": "[Nation Name] becomes renowned for its artisanal sock craftsmanship, drawing fashion enthusiasts from around the world and revitalizing traditional textile industries.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.6,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Let's use this as an opportunity to promote national unity through fashion sustainability. Launch a 'Sock Swap' campaign where citizens exchange polka dot socks, fostering community bonds and reducing textile waste.",
+            "option_outcome": "The 'Sock Swap' initiative gains widespread popularity, promoting eco-friendly fashion practices and strengthening social ties among citizens, leading to a decrease in textile waste and an increase in community engagement.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.1,
+                "civil_rights": 0.4
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Mascot Madness",
+    "event_description": "In the sports-loving nation of [Nation Name], a heated debate has ignited over the controversial issue of national sports team mascots. It all started when a group of passionate fans petitioned the government to change the official mascot of the national football team from the traditional 'Mighty Moose' to a more modern and 'cooler' option - 'Electric Emu'. This proposal has divided the population, with some arguing for the historic significance of the moose as a symbol of strength and resilience, while others advocate for the emu as a representation of speed and agility. As tensions rise, sports bars become battlegrounds of fervent debates, and social media is flooded with memes and arguments about which mascot truly embodies the spirit of the nation.",
+    "event_options": [
+        {
+            "option_description": "Embrace the future! Let's rebrand our national sports teams with the Electric Emu mascot. It's time for a new era of energized sporting events that capture the imagination of the younger generation.",
+            "option_outcome": "The Electric Emu becomes a social media sensation, drawing in a new wave of young fans and revitalizing interest in national sports teams.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.3,
+                "civil_rights": 0.0
+            }
+        },
+        {
+            "option_description": "Preserve tradition! The Mighty Moose is an integral part of our sports heritage. Let's stick with the tried and true mascot that has brought us victory and national pride for decades.",
+            "option_outcome":"The Mighty Moose loyalty intensifies, with fans rallying behind the historic mascot, leading to an increase in attendance at national sports events and a resurgence of Moose-themed merchandise.",
+            "option_effects": {
+                "political_freedom": -0.1,
+                "economy": 0.2,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Why choose when we can have both? Let's introduce a dual mascot system where the team alternates between the Mighty Moose and the Electric Emu, appealing to fans of all ages and preferences.",
+            "option_outcome": "The dual mascot system sparks creativity and inclusivity, drawing a diverse fan base and creating a unique identity for the national sports teams.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.1,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Let's take a different approach. We should hold a national competition to design a brand new mascot that represents the values of unity and diversity in our nation.",
+            "option_outcome": "The mascot design competition garners nationwide participation, showcasing the artistic talents of the population and leading to the selection of a unifying mascot that resonates with everyone.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.0,
+                "civil_rights": 0.3
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Outrageous Onion Odyssey",
+    "event_description": "In the peculiar nation of [Nation Name], a scandalous revelation has surfaced concerning public sector employees' salaries. It has come to light that a long-forgotten law mandates that all public sector salaries be paid in the form of onions instead of traditional currency. This archaic regulation, buried in the depths of bureaucratic archives, resurfaced when a mischievous intern stumbled upon it while organizing old government documents. As news of this bizarre law spreads, public sector workers are in an uproar, debating the practicality and absurdity of receiving their wages in onions. Some are delighted by the prospect of free groceries, while others are appalled by the inconvenience and stench it brings to their lives.",
+    "event_options": [
+        {
+            "option_description": "Let's embrace this quirky tradition! Not only should we enforce the onion payment law, but we should also establish onion markets across the nation for public sector employees to barter and trade their onions. This will revolutionize our economy and promote healthy eating!",
+            "option_outcome": "Onions become the unexpected new currency of [Nation Name], leading to a surge in onion-related businesses and a peculiar but thriving barter economy.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.3,
+                "civil_rights": 0.0
+            }
+        },
+        {
+            "option_description": "This archaic onion law must be abolished immediately! Public sector workers should be paid in conventional currency like the rest of the world. Let's modernize our payment systems and bring an end to this onion madness.",
+            "option_outcome": "The removal of the onion payment law sparks a wave of relief among public sector employees, leading to increased productivity and morale across government sectors.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": 0.4,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "Instead of rejecting the onion law, let's leverage it to promote self-sufficiency and sustainability. Establish community onion gardens where public sector workers can grow their own onions to supplement their wages. This initiative will foster a sense of connection to the land and reduce grocery expenses.",
+            "option_outcome": "The nation's public sector workers develop a newfound appreciation for agriculture and self-sustainability, leading to a decrease in food costs and a resurgence of community farming practices.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.1,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Let's look beyond the tears and focus on the bigger picture. The real issue here is the value of public sector work. We should use this onion debacle to increase public sector salaries and provide additional benefits to make up for the onion payments.",
+            "option_outcome": "Public sector employees receive significant salary increases and enhanced benefits, turning the onion saga into a catalyst for improved working conditions and job satisfaction.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": -0.2,
+                "civil_rights": 0.5
+            }
+        }
+    ]
+}

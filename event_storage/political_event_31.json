@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Crypto Craze",
+    "event_description": "In the wacky nation of [Nation Name], a new trend has taken hold as citizens begin to immerse themselves in the world of cryptocurrency. What started as a few tech-savvy individuals trading digital coins has now exploded into a full-blown craze, with grandmas buying Bitcoin, pets having their own wallets, and street vendors accepting Dogecoin. As the traditional financial institutions watch in bewilderment, the government is faced with a dilemma - to regulate or not to regulate this digital gold rush? Cryptocurrency enthusiasts are split between those who advocate for a laissez-faire approach, believing in the power of decentralized finance, and those who call for stricter oversight to protect citizens from potential scams and volatility.",
+    "event_options": [
+        {
+            "option_description": "Let's ride the crypto wave! Embrace decentralization and proclaim [Nation Name] as the world's first fully crypto nation. Establish a national cryptocurrency and encourage widespread adoption. Who needs fiat when you have digital assets?",
+            "option_outcome": "Cryptocurrency becomes the primary medium of exchange in [Nation Name], attracting tech-savvy immigrants and making the nation a hotbed for blockchain innovation.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.9,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Cryptos are risky business. We need to protect our citizens from potential fraud and ensure the stability of our financial system. Establish a regulatory framework for cryptocurrency transactions to prevent money laundering and illegal activities.",
+            "option_outcome": "Citizens feel safer engaging in cryptocurrency transactions, leading to a gradual uptick in mainstream adoption and the emergence of reputable crypto exchanges within [Nation Name].",
+            "option_effects": {
+                "political_freedom": -0.2,
+                "economy": 0.5,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Let's have some fun with this. Launch our own meme-based cryptocurrency, [Nation Name] Coin, which can only be mined by solving riddles about our national quirks. Embrace the whimsy of crypto while encouraging financial literacy and creativity among our citizens.",
+            "option_outcome": "[Nation Name] Coin gains a cult following both domestically and internationally, with its value tied to the nation's cultural heritage. The nation becomes famous for its innovative approach to digital assets.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.3,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Cryptocurrency is a passing fad. Let's focus on tangible investments and traditional banking. Discourage crypto usage and promote saving in physical assets like gold or vintage comic books.",
+            "option_outcome": "The citizens of [Nation Name] turn into avid collectors of rare comic books, leading to a resurgence in the vintage market and a quirky underground economy centered around graphic novels.",
+            "option_effects": {
+                "political_freedom": 0.0,
+                "economy": -0.4,
+                "civil_rights": -0.2
+            }
+        }
+    ]
+}

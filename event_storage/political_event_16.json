@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Curious Case of Scientific Research Funding",
+    "event_description": "In the land of [Nation Name], a heated debate has erupted over the allocation of funds for scientific research. A prominent scientist claims to have discovered a new element called 'Absurdium,' which supposedly defies the laws of physics and promises revolutionary advancements in technology. However, skeptics question the validity of the claim, labeling it as a publicity stunt to secure more research funding. As tensions rise, politicians are divided on whether to invest in this groundbreaking but potentially dubious research or to allocate resources to more established scientific fields. The public is equally split, with some enthusiastic supporters of innovation and others advocating for a cautious approach to prevent wasting taxpayer money on a scientific wild goose chase.",
+    "event_options": [
+        {
+            "option_description": "Allocate generous funding to further investigate 'Absurdium' and propel our nation to the forefront of scientific discovery! Embrace the spirit of curiosity and let the scientific community lead us to new frontiers.",
+            "option_outcome": "The research on 'Absurdium' becomes a global sensation, attracting top scientists and establishing [Nation Name] as a hub for cutting-edge scientific exploration.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.3,
+                "civil_rights": 0.0
+            }
+        },
+        {
+            "option_description": "Approve a modest budget for 'Absurdium' research but prioritize funding for proven scientific fields to ensure a balanced approach. We can't risk putting all our eggs in one questionable scientific basket.",
+            "option_outcome":"A compromise is reached, stimulating both innovative research on 'Absurdium' and continued progress in traditional scientific disciplines, fostering a diverse scientific landscape.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.4,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Reject the 'Absurdium' proposal and redirect funds to well-established scientific fields with proven benefits for society. We must be prudent with taxpayer money and invest in tangible scientific advancements.",
+            "option_outcome": "The focus on reliable scientific research leads to tangible breakthroughs in healthcare, energy, and technology, solidifying [Nation Name]'s reputation as a center for practical scientific innovation.",
+            "option_effects": {
+                "political_freedom": -0.1,
+                "economy": 0.6,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Form a committee of independent experts to review the 'Absurdium' claim and allocate funds based on their recommendations. Let's ensure transparency and accountability in scientific research funding.",
+            "option_outcome": "The committee's thorough investigation unveils the true nature of 'Absurdium,' leading to either a groundbreaking scientific breakthrough or a cautionary tale of scientific overreach.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.0,
+                "civil_rights": 0.3
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Galactic Neighbor Dispute",
+    "event_description": "In the interstellar realm of [Nation Name], an unexpected conflict has arisen with a neighboring alien civilization over the ownership of a seemingly ordinary asteroid that is suspected to contain a rare mineral coveted by both sides. The asteroid, known colloquially as 'Rocky McRockface,' sits on the border between the two territories and has suddenly become the focal point of a heated war of words and diplomatic standoffs. While some politicians advocate for a peaceful resolution through negotiation and sharing of resources, others demand a military show of force to assert dominance in the region. The citizens of [Nation Name] are divided, with some embracing the idea of alien friends and intergalactic trade, while others fear the unknown and cling to the comfort of terrestrial isolationism.",
+    "event_options": [
+        {
+            "option_description": "Let us extend an olive branch to our alien neighbors! Propose a joint mining operation on Rocky McRockface, sharing the resources and fostering friendly relations with the extraterrestrial community.",
+            "option_outcome": "The cooperative effort leads to unprecedented interstellar cooperation and trade agreements, opening up new opportunities for cultural exchange and technological advancement.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.7,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "We must protect our cosmic sovereignty! Deploy the Space Navy to secure Rocky McRockface and demonstrate our unwavering commitment to defending our galactic borders.",
+            "option_outcome": "The show of force deters further alien incursions and asserts [Nation Name]'s dominance in the region, but at the cost of heightened interstellar tension and suspicions of warmongering.",
+            "option_effects": {
+                "political_freedom": -0.3,
+                "economy": -0.2,
+                "civil_rights": -0.1
+            }
+        },
+        {
+            "option_description": "Embrace the spirit of exploration and discovery! Launch a joint mission with our alien neighbors to explore beyond Rocky McRockface, uncovering new worlds and fostering a sense of unity in the cosmos.",
+            "option_outcome": "The joint mission leads to groundbreaking discoveries and strengthens interstellar bonds, paving the way for collaborative scientific advancements and shared cosmic adventures.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": 0.6,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Prioritize the protection of our own planet and its resources! Shift focus towards sustainable asteroid mining practices and invest in Earth-centric initiatives for a greener future.",
+            "option_outcome": "By avoiding the conflict over Rocky McRockface and focusing on sustainable practices, [Nation Name] sets an example for responsible cosmic stewardship, leading to improved environmental policies and global recognition for conservation efforts.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": -0.1,
+                "civil_rights": 0.4
+            }
+        }
+    ]
+}

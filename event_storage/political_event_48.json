@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Great Umbrella Uproar",
+    "event_description": "In the peculiar nation of [Nation Name], a sudden panic has gripped the population due to a controversial decree issued by the Ministry of Public Safety. The decree mandates that all umbrellas used within the nation must be transparent, with the rationale being that opaque umbrellas could potentially conceal hidden dangers. This unprecedented decision has sparked outrage and confusion among citizens, with umbrella enthusiasts protesting in the streets and fashionistas torn between style and safety. As debates rage on social media, the nation finds itself divided between those calling for transparency in public safety measures and those decrying the measure as a violation of personal expression.",
+    "event_options": [
+        {
+            "option_description": "Embrace the clear umbrella mandate as a symbol of our commitment to safety and transparency in public spaces. Let's set the standard for security in all weather conditions!",
+            "option_outcome": "Transparent umbrellas become a fashion statement, with designers creating chic and innovative see-through umbrella designs that captivate the international fashion scene.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.3,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Reject this absurd decree! People have the right to choose their umbrella style without government interference. Safety should not come at the expense of personal expression.",
+            "option_outcome": "Underground markets for opaque umbrellas flourish, leading to a resurgence of speakeasy-style umbrella clubs and a wave of rebellious fashion statements.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": 0.4,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "Let's compromise by implementing a transparent umbrella subsidy program for those who choose to adhere to the decree while respecting the freedom of umbrella choice for others. This way, safety and personal style can coexist harmoniously.",
+            "option_outcome": "The nation sees a surge in transparent umbrella sales supported by government subsidies, fostering a sense of unity and solidarity in the face of differing fashion preferences.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.1,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "While umbrella transparency is important, let's address the root issue of public safety by investing in advanced surveillance technology to detect potential threats before they manifest. Let's use this opportunity to enhance our security measures beyond umbrellas.",
+            "option_outcome": "The nation becomes a pioneer in high-tech security systems, ensuring public safety without compromising personal style. Surveillance technology advancements lead to a decrease in overall crime rates and a boost in national security.",
+            "option_effects": {
+                "political_freedom": -0.3,
+                "economy": 0.7,
+                "civil_rights": 0.5
+            }
+        }
+    ]
+}

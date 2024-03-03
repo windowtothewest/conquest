@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Bookworm Uprising",
+    "event_description": "Public libraries across [Nation Name] are facing an unexpected surge in demand as citizens, inspired by a charismatic bookworm activist, have taken to the streets in protest against the perceived neglect of the nation's literary institutions. The activist, known only as 'The Literary Luminary,' has sparked a movement calling for increased funding, extended opening hours, and the introduction of a mandatory national reading hour. The government is caught off guard as the normally quiet libraries become hotbeds of intellectual fervor and literary debates, drawing in citizens from all walks of life. Some officials fear the upheaval this movement may cause, while others see it as a unique opportunity to reinvigorate the nation's passion for reading and knowledge.",
+    "event_options": [
+        {
+            "option_description": "Embrace the bookworm revolution! Increase funding for public libraries, extend their hours, and institute the national reading hour. Let every citizen dive into the sea of knowledge!",
+            "option_outcome": "Public libraries become bustling hubs of activity, hosting events, workshops, and book clubs. The nation's literacy rate soars, and 'The Literary Luminary' becomes a beloved national figure.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": -0.2,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Suppress this literary rebellion. Increase security at libraries, monitor 'The Literary Luminary,' and crack down on any form of dissent. We can't let books dictate our future!",
+            "option_outcome": "The crackdown leads to widespread protests, with citizens rallying behind the cause of intellectual freedom. The government's heavy-handed approach backfires, resulting in a surge of support for the bookworm movement.",
+            "option_effects": {
+                "political_freedom": -0.5,
+                "economy": -0.1,
+                "civil_rights": -0.4
+            }
+        },
+        {
+            "option_description": "Negotiate a compromise with 'The Literary Luminary.' Increase funding for public libraries and introduce initiatives to promote reading without mandating it. Let's find a middle ground between literary passion and individual choice.",
+            "option_outcome": "'The Literary Luminary' agrees to the compromise, and together with the government, launches a national literacy campaign. Public libraries receive a boost in resources, and citizens are encouraged to explore the world of books at their own pace.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.1,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Utilize the bookworm movement for political gain. Align with 'The Literary Luminary,' co-opt their message, and use it to distract the populace from other pressing issues. Books make for a great diversion, after all.",
+            "option_outcome": "The government's strategic alliance with 'The Literary Luminary' results in a temporary boost in popularity. Public libraries see an increase in visitors, but some critics accuse the government of exploiting the movement for its own ends.",
+            "option_effects": {
+                "political_freedom": -0.3,
+                "economy": 0.2,
+                "civil_rights": -0.2
+            }
+        }
+    ]
+}

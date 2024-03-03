@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Tariff Tangle",
+    "event_description": "In the whimsical nation of [Nation Name], a peculiar situation has arisen regarding trade tariffs. An ancient treaty tucked away in the dusty corners of the royal library has been unearthed, revealing a clause that requires all imported goods to be taxed based on their color. The more vibrant and eye-catching the hue of an item, the higher the tariff it incurs. As this archaic regulation resurfaces, confusion ripples through the bustling markets and port towns. Traders are scratching their heads, wondering how a rainbow of tariffs can be implemented fairly, while citizens debate the merits of taxing based on aesthetics rather than practicality.",
+    "event_options": [
+        {
+            "option_description": "Let's embrace this chromatic challenge and establish a Tariff Color Spectrum Commission to assess and categorize the colors of imported goods. By following this system, we can promote artistic diversity and stimulate local color-focused industries.",
+            "option_outcome": "Artisans specializing in colorful goods flourish, and the nation gains a reputation for its visually stunning marketplaces, attracting tourists seeking vibrant experiences.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.5,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "It's time to paint over this outdated policy. Let's abolish the color-based tariffs and move towards a more straightforward and fair trade system. Pragmatism over pigments!",
+            "option_outcome":"With the removal of color tariffs, trade flourishes, and the nation becomes known for its open and transparent trade policies, fostering strong international relations.",
+            "option_effects": {
+                "political_freedom": 0.6,
+                "economy": 0.7,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "This is an opportunity for a unique partnership with local artists. Let's create a 'Tariff Rainbow' program where artists design tariff categories based on color palettes, adding a touch of creativity to the bureaucratic process.",
+            "option_outcome": "The 'Tariff Rainbow' program becomes a hit, showcasing the nation's artistic talent and boosting cultural exports, while also streamlining the tariff assessment process.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.4,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "While colors are captivating, let's focus on fairness. Implement a flat tariff rate to simplify trade procedures and ensure equal treatment for all imports regardless of their color. Fair trade for all!",
+            "option_outcome": "Trade efficiency improves, and the nation gains a reputation for its fair and impartial trade practices, attracting a diverse range of international partners.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.6,
+                "civil_rights": 0.1
+            }
+        }
+    ]
+}

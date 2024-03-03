@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Unicorn Preservation Act",
+    "event_description": "In the whimsical nation of [Nation Name], a new environmental regulation has been proposed to protect the endangered unicorn population that supposedly inhabits the enchanted forests of the country. Despite no scientific evidence of their existence, a group of fervent believers has lobbied the government to pass the Unicorn Preservation Act, which mandates the protection of forested areas as potential unicorn habitats. This proposal has sparked a lively debate between those who see it as a crucial step in conserving mythical creatures and those who dismiss it as a waste of resources on fantasy.",
+    "event_options": [
+        {
+            "option_description": "We must embrace the magic of our land and protect all its inhabitants, real or imaginary. Let's enact the Unicorn Preservation Act and designate special zones for unicorn conservation, complete with enchanted meadows and rainbows.",
+            "option_outcome": "Tourism skyrockets as visitors flock to witness the 'unicorn habitats,' boosting the economy and promoting environmental awareness, albeit in a peculiar way.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.5,
+                "civil_rights": -0.1
+            }
+        },
+        {
+            "option_description": "Let's approach this with a rational mindset. Since unicorns are, well, mythical, we should focus on conserving real endangered species instead. Invest resources in preserving actual wildlife and habitats for tangible environmental benefits.",
+            "option_outcome":"The nation becomes a biodiversity hotspot, attracting researchers and conservationists worldwide to study and protect its diverse wildlife, earning praise for its commitment to conservation.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.2,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Why stop at unicorns? Let's broaden the scope and protect all magical creatures, from dragons to fairies! Implement the Fantasy Fauna Conservation Act to safeguard the mystical beings that enrich our folklore and imaginations.",
+            "option_outcome": "The nation gains a reputation for embracing fantasy and folklore, attracting a niche market of tourists interested in mythical creature sightings and contributing to the growth of a unique cultural tourism sector.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.3,
+                "civil_rights": -0.1
+            }
+        },
+        {
+            "option_description": "While the idea of unicorns is charming, we must prioritize practical environmental efforts. Let's use this momentum to implement widespread reforestation projects and combat deforestation effectively.",
+            "option_outcome": "The nation's forests flourish, wildlife habitats are restored, and the ecosystem experiences a rejuvenation, leading to positive impacts on biodiversity and climate change mitigation.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": 0.4,
+                "civil_rights": 0.2
+            }
+        }
+    ]
+}

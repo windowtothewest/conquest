@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Transparent Toilet Troubles",
+    "event_description": "In the peculiar nation of [Nation Name], a scandal has surfaced regarding government transparency, or lack thereof. It has come to light that the official government bathrooms are adorned with one-way mirrors, providing a voyeuristic view of the proceedings inside to certain high-ranking officials. The discovery has ignited a maelstrom of controversy, with citizens questioning the government's commitment to openness and accountability. Protests have erupted outside government buildings, demanding an end to this clandestine surveillance disguised as transparency.",
+    "event_options": [
+        {
+            "option_description": "We must dismantle these one-way mirrors immediately and apologize to the public for this invasive practice. Government transparency should start with literal transparency in our facilities!",
+            "option_outcome": "The government issues a public apology, removes all one-way mirrors from government bathrooms, and launches a transparency initiative that increases public trust in the administration.",
+            "option_effects": {
+                "political_freedom": 0.8,
+                "economy": -0.2,
+                "civil_rights": 0.5
+            }
+        },
+        {
+            "option_description": "Let's spin this scandal positively. Install live streaming cameras in all government bathrooms to show that we have nothing to hide. We dub this project 'See Through Governance'!",
+            "option_outcome": "The 'See Through Governance' project garners mixed reactions but ultimately improves government accountability as citizens can now tune in to watch their officials at work, quite literally.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": -0.1,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Rather than removing the mirrors, let's embrace this 'unique' feature and turn it into a tourist attraction. Charge visitors for a peek into the mysterious world of government toilet views.",
+            "option_outcome": "Tourism booms as curious visitors flock to witness the 'Transparent Toilet' experience, bringing in a bizarre yet lucrative revenue stream for the nation.",
+            "option_effects": {
+                "political_freedom": -0.2,
+                "economy": 0.6,
+                "civil_rights": -0.1
+            }
+        },
+        {
+            "option_description": "This scandal is a distraction from the real issues. Let's use it as an opportunity to focus on concrete policy reforms that enhance government transparency beyond mere optics.",
+            "option_outcome": "The nation implements comprehensive transparency laws and practices, ensuring that government accountability goes beyond bathroom visibility and addresses core governance areas.",
+            "option_effects": {
+                "political_freedom": 0.7,
+                "economy": -0.3,
+                "civil_rights": 0.6
+            }
+        }
+    ]
+}

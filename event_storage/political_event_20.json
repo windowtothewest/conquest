@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Atomic Disco Dilemma",
+    "event_description": "In the vibrant nation of [Nation Name], a peculiar incident has sparked a national debate on nuclear energy policy. During a routine inspection of the nation's nuclear power plant, inspectors were surprised to find that the plant's reactor core was replaced with a fully operational disco ball. It seems that a group of enthusiastic employees, inspired by the disco fever of the 70s, decided to convert the nuclear reactor into a dazzling centerpiece for dance parties. As the news goes viral, citizens are torn between fervent supporters of the Atomic Disco movement who argue for more sustainable and groovy energy solutions and concerned environmentalists who fear the potential hazards of using a disco ball as a power source.",
+    "event_options": [
+        {
+            "option_description": "Let the Atomic Disco shine! Embrace this innovative approach to energy production and promote the use of disco balls as an eco-friendly alternative to traditional nuclear reactors. Who needs radiation when you have funky beats?",
+            "option_outcome": "The nation becomes known for its electrifying dance parties powered by disco energy. International tourists flock to experience the Atomic Disco, boosting the economy and spreading the dance revolution worldwide.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.5,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "This is a disco disaster waiting to happen! Immediately shut down the Atomic Disco and invest in safer and more reliable energy sources. Let's not gamble with our nation's future on a dancefloor.",
+            "option_outcome": "The Atomic Disco era comes to an end, but the nation learns valuable lessons about the importance of responsible energy management. Investments in renewable energy flourish, leading to a greener future for all.",
+            "option_effects": {
+                "political_freedom": -0.2,
+                "economy": -0.3,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Merge the old and the new! Keep the Atomic Disco operational but implement strict safety regulations and oversight. Let's show the world that we can boogie responsibly!",
+            "option_outcome": "The nation becomes a pioneer in energy diversification, blending disco enthusiasm with safety measures. The Atomic Disco becomes a symbol of innovation and caution in the energy sector.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.3,
+                "civil_rights": 0.0
+            }
+        },
+        {
+            "option_description": "It's time to pivot! Launch a national campaign to transition from Atomic Disco to Solar Salsa. Let's harness the power of the sun and salsa rhythms to enlighten our nation.",
+            "option_outcome": "Solar Salsa becomes the new energy sensation, captivating the nation with its renewable and rhythmic charm. The transition sparks a cultural movement that celebrates sustainability and dance in perfect harmony.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.4,
+                "civil_rights": 0.2
+            }
+        }
+    ]
+}

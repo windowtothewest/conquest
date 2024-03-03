@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Secret Squirrel Society",
+    "event_description": "In the secretive nation of [Nation Name], whispers abound about a clandestine group known only as the Secret Squirrel Society. Rumored to be a covert organization of highly trained squirrels equipped with miniature surveillance equipment, this group is said to have infiltrated key government buildings, embassies, and even the local park's bird feeder. Citizens are divided on whether to be fearful of this intrusion on their privacy or amazed by the ingenuity of these furry spies. As speculation grows, the government is under pressure to investigate and either debunk or acknowledge the existence of the Secret Squirrel Society.",
+    "event_options": [
+        {
+            "option_description": "We must hunt down these squirrels and put an end to their espionage activities immediately. Deploy the squirrel-catching task force and launch a full-scale investigation to root out this threat to national security!",
+            "option_outcome": "The nation becomes known for its zero-tolerance approach to squirrel spies, leading to a decrease in real espionage activities and a quirky tourism industry centered around squirrel-themed attractions.",
+            "option_effects": {
+                "political_freedom": -0.4,
+                "economy": 0.2,
+                "civil_rights": -0.3
+            }
+        },
+        {
+            "option_description": "Let's embrace the Secret Squirrel Society as a symbol of our nation's innovation in surveillance tactics. Offer them a partnership with the government to enhance our intelligence gathering capabilities while maintaining a level of plausible deniability.",
+            "option_outcome": "The Secret Squirrel Society becomes an integral part of the nation's intelligence network, providing valuable information and a surprising boost to the nation's security reputation.",
+            "option_effects": {
+                "political_freedom": -0.1,
+                "economy": 0.4,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "Why fight the squirrels when we can join them? Let's establish a squirrel training program for our citizens, turning the tables on the Secret Squirrel Society and creating a quirky espionage force of our own.",
+            "option_outcome": "The nation becomes a hub for squirrel espionage training, attracting eccentric individuals and leading to a surge in squirrel-related tourism and merchandise sales.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.5,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "This paranoia about squirrels is distracting us from real threats. Let's invest in technology to detect and deter electronic surveillance instead of chasing after furry creatures.",
+            "option_outcome": "The nation develops cutting-edge anti-surveillance technology, becoming a leader in the field and attracting tech enthusiasts who are fond of squirrel conspiracy theories.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.7,
+                "civil_rights": 0.2
+            }
+        }
+    ]
+}

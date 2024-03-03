@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Media Monopoly Madness",
+    "event_description": "In the bustling nation of [Nation Name], a scandal has rocked the media industry. It has come to light that a single eccentric billionaire, known for their love of all things shiny and sparkly, has been secretly buying up every major media outlet in the country. What started as a rumor among gossip columns has now been confirmed, leading to concerns about the concentration of media power in the hands of one individual. As journalists across the nation scramble to uncover the truth behind this monopoly, citizens are divided between those who see this as a threat to freedom of information and those who believe that a unified media voice could bring about unprecedented levels of glittery unity.",
+    "event_options": [
+        {
+            "option_description": "Let's celebrate the symphony of swag! Embrace the monopoly and create a national media conglomerate at the billionaire's helm. Imagine the sparkle-enhanced headlines and the bling-filled news broadcasts!",
+            "option_outcome": "The nation's media becomes a beacon of glitz and glamour, captivating audiences with its extravagant reporting style. The billionaire becomes a media icon, known for their eccentricity and over-the-top storytelling.",
+            "option_effects": {
+                "political_freedom": -0.5,
+                "economy": 0.3,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "This is a dire situation indeed. We must pass legislation to break up this media monopoly and ensure diverse voices and perspectives in the industry. Preserve the press freedom!",
+            "option_outcome": "Media ownership is diversified, leading to a vibrant media landscape with a plethora of voices and opinions. The billionaire's media empire crumbles, but the diversity sparks a new era of journalistic creativity.",
+            "option_effects": {
+                "political_freedom": 0.7,
+                "economy": -0.4,
+                "civil_rights": 0.5
+            }
+        },
+        {
+            "option_description": "Let's turn this monopoly on its head! Launch a nationwide media literacy campaign to educate citizens on recognizing bias and misinformation. Empower the people to think critically and question everything they read or watch!",
+            "option_outcome": "Citizens become savvy media consumers, adept at spotting misinformation and analyzing news sources. The billionaire's attempts to control the narrative are met with skepticism and scrutiny from an enlightened populace.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.1,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Why fight it when we can join it? Let's cozy up to the billionaire and propose a partnership that allows for independent journalistic oversight while benefiting from the resources of the media monopoly. It's a win-win glitter extravaganza!",
+            "option_outcome": "The nation witnesses a strange collaboration between the government and the billionaire, leading to a unique blend of investigative journalism and glitzy entertainment. The partnership raises eyebrows but also raises ratings, making headlines across the nation.",
+            "option_effects": {
+                "political_freedom": -0.2,
+                "economy": 0.6,
+                "civil_rights": -0.1
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Great Wildlife Wardrobe Debate",
+    "event_description": "In the whimsical nation of [Nation Name], a peculiar controversy has arisen concerning the attire worn by the local wildlife. A group of avant-garde fashion designers claim that the native animals lack style and sophistication in their natural fur and feather coats. To address this 'fashion emergency,' they propose a bill that mandates all animals to undergo a mandatory fashion makeover, complete with custom-designed outfits that reflect their personality and habitat. As the proposal sparks heated discussions across the nation, wildlife enthusiasts argue over the ethical implications of dressing up animals and the potential impact on their behavior and natural interactions.",
+    "event_options": [
+        {
+            "option_description": "Let's unleash the fashion revolution! Embrace the opportunity to make our wildlife the trendsetters of the animal kingdom. Implement the wardrobe makeover program for all creatures, from the majestic eagles to the humble squirrels!",
+            "option_outcome": "Fashionable wildlife becomes a tourist attraction, boosting the nation's image as a stylish and innovative wildlife destination.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.3,
+                "civil_rights": 0.0
+            }
+        },
+        {
+            "option_description": "Respect the natural beauty of our wildlife. Reject the frivolous idea of dressing up animals and focus on conserving their habitats and protecting their rights to roam freely as nature intended.",
+            "option_outcome":"The wildlife conservation efforts gain recognition internationally, attracting environmentalists and leading to the establishment of new protected reserves for endangered species.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": -0.4,
+                "civil_rights": 0.5
+            }
+        },
+        {
+            "option_description": "Let's compromise with a wildlife fashion show! Organize a one-time event to showcase creative animal outfits, raising awareness about wildlife conservation in a fun and engaging way.",
+            "option_outcome":"The wildlife fashion show becomes a sensation, drawing in crowds from around the world and raising significant funds for wildlife protection initiatives.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.6,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Focus on practical solutions. Invest in eco-friendly fashion alternatives for humans, promoting sustainable clothing choices that support wildlife habitats and reduce environmental impact.",
+            "option_outcome": "The nation becomes a pioneer in eco-conscious fashion, with wildlife-inspired collections leading the way to a greener and more responsible fashion industry.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": 0.7,
+                "civil_rights": 0.1
+            }
+        }
+    ]
+}

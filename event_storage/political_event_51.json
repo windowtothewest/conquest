@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Toddler Takeover",
+    "event_description": "In the whimsical nation of [Nation Name], a group of toddlers has organized a peaceful protest against the government's childcare policies. These tiny activists are demanding mandatory nap times, extended recess periods, and the right to vote on all snack options at daycare centers. Their leader, a precocious 3-year-old named Peanut, has captured the hearts of the nation with her adorable speeches and insistence on building sandcastles as part of educational curriculum. Parents are torn between amusement at the cuteness overload and concern over the potential chaos that may ensue if the toddlers' demands are taken seriously.",
+    "event_options": [
+        {
+            "option_description": "Let's embrace the whimsy and invest in childcare reform that incorporates the wisdom of our youngest citizens. Nap times and snack democracy for all daycare attendees!",
+            "option_outcome": "The nation's childcare system becomes internationally renowned for its innovative and child-centric approach, leading to increased happiness and productivity among toddlers and caregivers alike.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.1,
+                "civil_rights": 0.5
+            }
+        },
+        {
+            "option_description": "While adorable, we must maintain order in our childcare system. Implement a compromise that includes a limited voting system for snack options and designated play areas, but within reason.",
+            "option_outcome": "The toddlers' demands are partially met, striking a balance between whimsical freedom and structured childcare routines. Peanut retains her status as a beloved advocate, and snack time becomes a daily exercise in democracy.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": -0.2,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "As cute as Peanut and her friends are, we cannot let toddlers dictate national policies. Maintain the existing childcare regulations and provide extra playtime as a compromise.",
+            "option_outcome": "The toddler protest gradually fades away as the government stands firm on childcare policies. However, Peanut's influence inspires a new wave of children's rights advocacy, leading to better protections for young citizens.",
+            "option_effects": {
+                "political_freedom": -0.1,
+                "economy": 0.1,
+                "civil_rights": 0.4
+            }
+        },
+        {
+            "option_description": "This is a golden opportunity for early childhood education initiatives. Let's create special play-based learning programs and establish a National Toddler Advisory Council to ensure their voices are heard in shaping future policies.",
+            "option_outcome": "The nation becomes a pioneer in early childhood development, with innovative programs that nurture creativity and critical thinking in young children. Peanut and her peers become respected advisors, guiding policymakers in child-friendly decisions.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": -0.3,
+                "civil_rights": 0.6
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Universal Basic Income Uproar",
+    "event_description": "In the whimsical nation of [Nation Name], a groundbreaking proposal for implementing a Universal Basic Income (UBI) has sparked a wave of controversy. The idea of providing every citizen with a regular, unconditional sum of money has polarized the population. Supporters argue that UBI would eradicate poverty, stimulate the economy, and unleash the creative potential of individuals. On the other hand, critics warn of economic collapse, laziness, and the impending doom of traditional work ethics. As the debate rages on social media, town halls, and even in the local barbershops, the nation finds itself at a crossroads of socioeconomic philosophy.",
+    "event_options": [
+        {
+            "option_description": "Let's pioneer the future! Implement UBI immediately and watch as our nation transforms into a utopia of innovation and happiness. Embrace the bold idea of a guaranteed income for all!",
+            "option_outcome": "UBI is successfully implemented, leading to a surge in entrepreneurial ventures, artistic creations, and a significant reduction in poverty levels. The nation becomes a global example of the merits of UBI.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": 0.7,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Hold on now! UBI is a utopian fantasy that will bankrupt us all. Let's focus on creating more job opportunities and investing in vocational training programs instead of handing out free money.",
+            "option_outcome": "The government allocates funds towards job creation schemes and vocational training, leading to a boost in employment rates. However, the issue of poverty persists, sparking ongoing debates on the future of social welfare.",
+            "option_effects": {
+                "political_freedom": -0.3,
+                "economy": 0.4,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Why not take a middle path? Let's conduct a pilot UBI program in select regions to assess its impact before a nationwide rollout. This way, we can make an informed decision based on real-world data.",
+            "option_outcome": "The pilot UBI program generates valuable data on its economic and social effects, leading to a nuanced understanding of UBI's potential benefits and drawbacks. This pragmatic approach sparks interest from other nations seeking to learn from [Nation Name]'s experiment.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.3,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "UBI is outdated! Let's revolutionize social welfare with Universal Basic Happiness (UBH). Instead of money, we'll ensure every citizen receives a daily dose of sunshine, laughter, and good vibes.",
+            "option_outcome": "The unconventional UBH program gains international attention for its focus on emotional well-being. Citizens report feeling happier and more connected, leading to a boost in mental health awareness and communal activities.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": -0.2,
+                "civil_rights": 0.6
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Mysterious Meat Mystery",
+    "event_description": "In the culinary world of [Nation Name], a puzzling discovery has shaken the nation to its core. A group of intrepid food inspectors stumbled upon a hidden clause in the food safety regulations that mandates all meat products must contain a secret ingredient known only to a select few government officials. This enigmatic directive, buried deep within the labyrinthine legal texts, has sparked a wave of speculation and paranoia among both meat producers and consumers. While some believe this secret ingredient adds a unique flavor and mystique to their favorite sausages and burgers, others are concerned about the implications of such clandestine culinary practices on public health and transparency.",
+    "event_options": [
+        {
+            "option_description": "Let's embrace the mystery and turn it into a marketing goldmine! We will launch a 'Guess the Secret Ingredient' campaign where consumers can submit their guesses for a chance to win a year's supply of mystery meat products.",
+            "option_outcome": "The 'Guess the Secret Ingredient' campaign goes viral, turning the nation's mysterious meat into a trendy sensation. Sales skyrocket as consumers eagerly await the unveiling of the enigmatic ingredient.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.4,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "This secret ingredient nonsense ends now! We demand full transparency and immediate disclosure of what goes into our meat products. No more shady surprises hidden in our hamburgers!",
+            "option_outcome":"The government reluctantly reveals the secret ingredient to be 'glitter' for aesthetic purposes, causing a mix of amusement and concern among the populace. Public trust in meat products is restored, albeit with a touch of sparkle.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": -0.3,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "We must unravel this mystery for the sake of public health and transparency. Launch a full investigation into the origin and safety of the secret ingredient, ensuring that our meat products meet strict quality standards.",
+            "option_outcome": "The investigation uncovers that the secret ingredient is actually a harmless natural extract that enhances the flavor of meat without any adverse health effects. The nation applauds the government's proactive approach to food safety.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.1,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Let's use this mystery to our advantage and create a new culinary trend. Launch a series of 'Mystery Meat Tasting Events' where citizens can experience the thrill of trying unidentified meat dishes.",
+            "option_outcome": "The 'Mystery Meat Tasting Events' become a sensation, attracting food enthusiasts and daring eaters from around the world. [Nation Name] gains a reputation for its adventurous culinary scene, with the mysterious meat trend spreading to other nations.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.6,
+                "civil_rights": 0.0
+            }
+        }
+    ]
+}

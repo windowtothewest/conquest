@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Global Exposition Extravaganza",
+    "event_description": "In the bustling nation of [Nation Name], excitement is in the air as preparations begin for hosting the largest international exposition ever seen on the planet. Countries from around the world are eager to showcase their innovations, cultures, and peculiarities in what promises to be a whirlwind of diversity and wonder. The government is busy constructing pavilions, organizing cultural performances, and finalizing diplomatic protocols to ensure the success of this grand event. However, amidst the flurry of activity, unexpected challenges and opportunities arise, leaving [Nation Name] at a crossroads of global engagement and diplomatic intrigue.",
+    "event_options": [
+        {
+            "option_description": "Let's spare no expense in showcasing our nation's superiority! Invest heavily in our pavilion, technology demonstrations, and extravagant events to outshine all other countries. We must be remembered as the grand host of this historic exposition!",
+            "option_outcome": "The international community is in awe of [Nation Name]'s grandeur, leading to increased tourism, diplomatic ties, and a boost in national pride. The expositional success propels the nation into the global spotlight.",
+            "option_effects": {
+                "political_freedom": -0.1,
+                "economy": 0.7,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "Let's take a creative approach to this exposition. Instead of traditional exhibits, let's host a series of quirky competitions like synchronized swimming in pudding and hat-throwing contests. Embrace the weird and wonderful to leave a lasting impression!",
+            "option_outcome": "The unconventional approach captures the hearts of visitors, earning [Nation Name] the title of the quirkiest host country in expo history. This reputation leads to an influx of tourists seeking the offbeat and whimsical.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.5,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Let's turn this expo into a diplomatic masterpiece. Focus on building bridges with other nations, facilitating cultural exchanges, and promoting peace through dialogue. Our goal should be to foster lasting friendships and promote global harmony.",
+            "option_outcome": "The expo becomes a symbol of international cooperation and understanding, with [Nation Name] hailed as a peacemaker on the global stage. Diplomatic relations improve, and the nation gains a reputation as a beacon of unity.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.3,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Let's use this opportunity to showcase our commitment to sustainability and innovation. Create eco-friendly pavilions, promote green technologies, and emphasize responsible consumption to inspire a global movement towards a greener future.",
+            "option_outcome": "The eco-friendly approach earns [Nation Name] accolades for environmental stewardship, sparking a wave of green initiatives worldwide. The nation becomes a pioneer in sustainable practices, attracting eco-conscious visitors and investment.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.4,
+                "civil_rights": 0.3
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "Anthem Amplification Act",
+    "event_description": "In the vibrant nation of [Nation Name], a peculiar mandate from the Ministry of Culture has emerged - the Anthem Amplification Act. This law stipulates that all national anthems played or sung in public spaces must be performed at a volume of at least 120 decibels. The rationale behind this ruling, as explained by the Minister of Culture in a press conference, is to 'bolster national pride through auditory stimulation and ensure that the anthem reverberates through every citizen's core.' Citizens are now divided between those who see this as a unique way to showcase patriotism and those who are concerned about potential hearing damage and noise complaints.",
+    "event_options": [
+        {
+            "option_description": "We must embrace the Anthem Amplification Act wholeheartedly! Let the national anthem ring out like a thunderous symphony, igniting the spirit of our nation in every heart and eardrum.",
+            "option_outcome": "The nation gains a reputation for having the most enthusiastically sung anthem in the world, with citizens proudly belting out the anthem at maximum volume at every opportunity.",
+            "option_effects": {
+                "political_freedom": -0.2,
+                "economy": 0.1,
+                "civil_rights": -0.3
+            }
+        },
+        {
+            "option_description": "This is madness! We cannot risk permanent hearing loss for the sake of national pride. We must protest this outrageous law and demand a more reasonable volume level for our anthems.",
+            "option_outcome":"Citizens gather in peaceful protests, advocating for safer volume levels for national anthems. The government eventually revises the law, setting a more moderate decibel limit for anthem performances.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": -0.2,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Let's use this opportunity to showcase our national anthem in innovative ways. Invest in high-quality sound systems and create special anthem performances that captivate the nation without blowing out eardrums.",
+            "option_outcome": "National anthem concerts become the latest trend, with state-of-the-art sound systems enhancing the audio experience. Musicians and performers gain recognition for their creative interpretations of the anthem.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.4,
+                "civil_rights": -0.1
+            }
+        },
+        {
+            "option_description": "Instead of focusing on volume, let's delve into the lyrical content of the national anthem. We can commission renowned poets and songwriters to enhance the anthem's message and symbolism to foster a deeper connection with our heritage.",
+            "option_outcome": "The revamped national anthem lyrics resonate with citizens on a profound level, sparking a renewed sense of unity and pride. The anthem becomes a cultural phenomenon, inspiring poetry slams and art installations nationwide.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.0,
+                "civil_rights": 0.4
+            }
+        }
+    ]
+}

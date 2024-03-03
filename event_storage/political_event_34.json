@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Ministerial Mayhem",
+    "event_description": "In the scandalous saga of [Nation Name], a government scandal rocks the nation when the Minister of Silly Walks is caught on camera engaging in a rather peculiar and undignified dance routine in the parliament building during a crucial legislative session. The video of the Minister's impromptu performance goes viral, sparking a mix of amusement and outrage among the populace. Citizens are divided between those who see the Minister's antics as a refreshing break from the norm and those who consider it a mockery of governmental seriousness.",
+    "event_options": [
+        {
+            "option_description": "Embrace the Minister's dance moves! Let's launch a national silly walk competition and fund public dance performances to showcase our government's unique approach to governance.",
+            "option_outcome": "Silly walks become a national treasure, with tourists flocking to witness the eccentric dance displays, putting [Nation Name] on the map as a haven for unconventional political expressions.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": -0.2,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "This is a disgrace to the office! The Minister must resign immediately and issue a public apology for their unbecoming behavior.",
+            "option_outcome": "The Minister steps down, issuing a public apology and promising to take up tap dancing lessons to channel their energy more constructively in the future.",
+            "option_effects": {
+                "political_freedom": -0.3,
+                "economy": 0.1,
+                "civil_rights": -0.5
+            }
+        },
+        {
+            "option_description": "Let's use this scandal as an opportunity for political reform. Implement a Ministry of Dance to regulate and enhance the government's approach to creative expression within politics.",
+            "option_outcome": "The Ministry of Dance brings a new level of artistic flair to political proceedings, with each session beginning with a ceremonial group routine that lightens the mood and fosters a sense of camaraderie among politicians.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.1,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Redirect attention from the scandal by initiating a national campaign focused on the importance of serious governance. Let's highlight the achievements of our government in a series of informative documentaries and town hall meetings.",
+            "option_outcome": "The nation becomes more politically aware, with citizens engaging in constructive dialogues about governance and the role of humor in politics.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.2,
+                "civil_rights": 0.2
+            }
+        }
+    ]
+}

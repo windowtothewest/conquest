@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Peculiar Potato Scandal",
+    "event_description": "In the whimsical nation of [Nation Name], a bizarre government scandal has come to light involving the misuse of potatoes. It was discovered that certain high-ranking officials had been secretly using government funds to develop an elaborate underground potato farming operation. The clandestine project involved genetically modified potatoes with special properties rumored to grant extraordinary powers to those who consumed them. As news of this scandal spreads, the public is both amused and bewildered by the sheer absurdity of the situation.",
+    "event_options": [
+        {
+            "option_description": "We must root out this potato conspiracy and hold those responsible accountable! Launch a full investigation into the potato scandal and ensure that such misuse of resources never happens again.",
+            "option_outcome": "The investigation uncovers even more bizarre potato-related schemes, leading to the arrest of the officials involved and a boost in public confidence in the government's ability to tackle absurd scandals.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.3,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Embrace the potato craze! Let's leverage this scandal to promote our nation as the world's leading potato utopia. Develop potato-themed tourism, merchandise, and events to capitalize on the potato frenzy.",
+            "option_outcome":"[Nation Name] becomes a global sensation known for its quirky potato culture, attracting visitors from far and wide to experience the potato-themed attractions and products.",
+            "option_effects": {
+                "political_freedom": -0.1,
+                "economy": 0.6,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "Potatoes are yesterday's news. Let's pivot to a new scandal by diverting attention to a fabricated scandal involving turnips. Launch a misinformation campaign to shift focus away from the potato scandal.",
+            "option_outcome": "The turnip scandal gains unexpected popularity, becoming a nationwide obsession as citizens eagerly follow the twists and turns of the imaginary turnip conspiracy, completely forgetting about the real potato scandal.",
+            "option_effects": {
+                "political_freedom": -0.3,
+                "economy": -0.1,
+                "civil_rights": -0.1
+            }
+        },
+        {
+            "option_description": "This scandal is proof that we need transparency in government affairs. Let's create a new potato oversight committee to ensure that all potato-related activities are conducted in the open and adhere to ethical standards.",
+            "option_outcome": "The potato oversight committee becomes a symbol of governmental transparency and accountability, earning praise from international observers for its commitment to potato integrity.",
+            "option_effects": {
+                "political_freedom": 0.4,
+                "economy": -0.2,
+                "civil_rights": 0.3
+            }
+        }
+    ]
+}

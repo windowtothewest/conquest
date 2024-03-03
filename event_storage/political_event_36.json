@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Emergency Banana Strategy",
+    "event_description": "In the quirky nation of [Nation Name], a state of emergency has been declared following a series of banana-related disasters. It all started when a cargo ship carrying thousands of bananas accidentally capsized in the nation's main river, causing a massive banana flood that engulfed several towns downstream. As if that wasn't enough, a rogue group of monkeys, emboldened by the chaos, has organized a banana heist from the national fruit reserve, leaving the country facing a severe banana shortage. With the population in despair over the lack of this beloved fruit, the government must act swiftly to restore order and prevent a total banana catastrophe.",
+    "event_options": [
+        {
+            "option_description": "Implement a Bananapocalypse Readiness Task Force to coordinate banana distribution and ensure equitable access to this vital fruit during times of crisis. Let's show the world our commitment to banana resilience!",
+            "option_outcome": "The Bananapocalypse Task Force becomes a national hero, hailed for its efficient banana distribution system and decisive actions in preventing banana hoarding.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.3,
+                "civil_rights": 0.0
+            }
+        },
+        {
+            "option_description": "Organize a Banana Festival to lift the spirits of the population and celebrate the resilience of the banana in the face of adversity. Let's turn this disaster into a chance for unity and potassium-infused joy!",
+            "option_outcome": "The Banana Festival becomes an annual tradition, attracting tourists from around the world and boosting the nation's cultural reputation as the Banana Capital of the world.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.4,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Enact a Banana Conservation Act to protect and preserve the nation's remaining banana resources. Let's ensure a sustainable future for generations to come by being responsible stewards of our banana heritage.",
+            "option_outcome": "The Banana Conservation Act leads to the establishment of banana sanctuaries, saving endangered banana species and promoting eco-tourism focused on banana conservation efforts.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": -0.2,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Create a National Banana Emergency Relief Fund to assist those most affected by the banana disasters. Let's show compassion and solidarity in these trying times by providing support to banana-dependent communities.",
+            "option_outcome": "The National Banana Emergency Relief Fund helps rebuild devastated banana farms, ensuring a steady supply of bananas for future generations and fostering a sense of pride in the nation's banana resilience.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": -0.1,
+                "civil_rights": 0.3
+            }
+        }
+    ]
+}

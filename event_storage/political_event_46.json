@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Pandemic Pancake Predicament",
+    "event_description": "In the land of [Nation Name], amidst the chaos of a global pandemic, a peculiar crisis has emerged in the culinary world. Pancake lovers across the nation are divided over the optimal pancake toppings to boost immunity and combat viruses. Some swear by the mystical powers of blueberry magic, claiming it enhances their immune system, while others advocate for the savory supremacy of bacon strips, citing its protein-packed defense against germs. The debate has reached monumental levels, with pancake enthusiasts forming rival factions and engaging in pancake toss-offs to prove their point. As the nation grapples with serious health concerns, the Pancake Pandemic has taken the forefront, overshadowing traditional health guidelines and creating a maple syrup-soaked battlefield of breakfast proportions.",
+    "event_options": [
+        {
+            "option_description": "We must promote blueberry pancakes as the ultimate pandemic-fighting weapon! Launch a national campaign to educate the public on the benefits of antioxidants and deliciousness combined. Let's stack our defenses with a mountain of blueberries!",
+            "option_outcome": "Blueberry farmers rejoice as demand skyrockets, and health-conscious citizens embrace the antioxidant-rich blueberry pancake trend, leading to a surge in blueberry sales and a national reduction in flu cases.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.3,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Enough with the fruity fantasies! Bacon is the answer to our pandemic problems. Launch a Bacon Blitz campaign to promote the consumption of crispy, sizzling bacon pancakes as the ultimate immune booster.",
+            "option_outcome":"Bacon sales skyrocket, and citizens revel in the savory delight of bacon pancakes, leading to a newfound appreciation for the sizzle of bacon and a dip in flu-related illnesses.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.4,
+                "civil_rights": 0.0
+            }
+        },
+        {
+            "option_description": "Let's not limit ourselves to traditional pancake toppings. Embrace diversity and innovation by encouraging citizens to experiment with unique toppings like kimchi, wasabi, or even hot sauce on their pancakes. Pandemic pancakes need a spicy twist!",
+            "option_outcome": "A pancake revolution ensues, with restaurants offering exotic pancake options, attracting foodies from around the world and creating a buzz in the culinary scene. The nation becomes known for its bold pancake creations.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.6,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "Enough with the pancake toppings debate! Focus on the real issue at hand - public health. Launch a comprehensive pancake vaccination program, providing free pancake doses to citizens to boost their immunity and morale.",
+            "option_outcome": "Citizens line up for their pancake shots, and a sense of unity and community spirit emerges as people bond over shared pancake experiences. The nation's health improves, both physically and emotionally.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.2,
+                "civil_rights": 0.3
+            }
+        }
+    ]
+}

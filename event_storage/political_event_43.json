@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Spectacular Costume Carnival",
+    "event_description": "In the jubilant nation of [Nation Name], an extravagant public celebration known as the Costume Carnival is held annually to honor the quirky tradition of dressing up in outlandish costumes and masks. This year, however, the event planners have decided to add a controversial twist to the festivities. They have announced a mandate that requires all participants to wear costumes that represent historical figures from alternative timelines. These alternative timeline figures include a steampunk Queen Elizabeth, a cybernetic Leonardo da Vinci, a ninja Abraham Lincoln, and a disco-dancing Cleopatra. The nation is abuzz with excitement and confusion as citizens debate the implications of this new requirement on their beloved Carnival.",
+    "event_options": [
+        {
+            "option_description": "Embrace the spirit of creativity and embrace the new costume mandate! Let's celebrate the fantastical and the absurd in our Carnival. Who knows, we might even inspire a new genre of alternative history fiction!",
+            "option_outcome": "The Costume Carnival becomes an international sensation, attracting tourists from around the globe who are eager to witness the creativity and spectacle of the alternative timeline costumes.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.5,
+                "civil_rights": 0.2
+            }
+        },
+        {
+            "option_description": "This mandate is preposterous! The Carnival should celebrate our own cultural history, not some fictional alternate realities. Let's organize a protest and demand a return to traditional costume choices.",
+            "option_outcome": "The protest gains traction and leads to a compromise where participants can choose between alternative timeline costumes and traditional costumes, ensuring that the Carnival remains a blend of old and new.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": -0.2,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Let's transform this mandate into an opportunity for education. Encourage participants to research the historical background of their chosen alternative timeline figures. This could turn the Costume Carnival into a unique learning experience for all.",
+            "option_outcome": "The Costume Carnival becomes not just a celebration of costumes but also a platform for historical education, with participants engaging in lively discussions about the alternative timelines and their significance.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": 0.3,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Use this mandate to create a new wave of entrepreneurship. Encourage local artists and designers to collaborate on creating elaborate alternative timeline costumes for sale or rent, boosting the creative economy.",
+            "option_outcome": "The Costume Carnival sparks a renaissance in the local arts and crafts industry, with designers gaining worldwide recognition for their imaginative and intricate alternative timeline costumes.",
+            "option_effects": {
+                "political_freedom": 0.0,
+                "economy": 0.7,
+                "civil_rights": 0.0
+            }
+        }
+    ]
+}

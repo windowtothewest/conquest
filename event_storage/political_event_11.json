@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Quantum Education Revolution",
+    "event_description": "In the realm of [Nation Name]'s education system, a breakthrough in quantum mechanics has led to a controversial proposal for an innovative educational reform. A group of eccentric physicists turned education enthusiasts have suggested implementing a curriculum based on quantum principles. They argue that teaching students about quantum superposition, entanglement, and teleportation will not only expand their minds but also prepare them for the unpredictable and interconnected world ahead. Supporters believe this avant-garde approach will revolutionize education, while skeptics fear it will confuse students even more and lead to a generation of quantum wizards or absolute chaos.",
+    "event_options": [
+        {
+            "option_description": "Embrace the quantum leap in education! Let's introduce quantum mechanics into our school curriculum and pave the way for a new era of highly adaptable and creative thinkers.",
+            "option_outcome": "Students astound the world with their quantum problem-solving skills and unconventional perspectives, propelling [Nation Name] to the forefront of theoretical education.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.3,
+                "civil_rights": 0.1
+            }
+        },
+        {
+            "option_description": "Stick to the textbooks and tradition. Quantum mechanics has no place in our classrooms. Let's focus on the fundamentals and avoid creating a rift between reality and what's beyond our comprehension.",
+            "option_outcome":"The education system remains stable, but [Nation Name] misses the opportunity to push educational boundaries, leading to a more conservative approach to learning.",
+            "option_effects": {
+                "political_freedom": -0.1,
+                "economy": 0.1,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "Merge quantum education with arts and crafts. Let's encourage students to express quantum concepts through creative projects like quantum-powered sculptures or entangled paintings.",
+            "option_outcome": "A fusion of art and quantum education captivates the nation and sparks a renaissance in both creative and scientific communities.",
+            "option_effects": {
+                "political_freedom": 0.1,
+                "economy": 0.2,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "Offer quantum mechanics as an after-school club for interested students. This way, we can explore the quantum realm without disrupting the core curriculum for all students.",
+            "option_outcome": "The after-school quantum club gains a cult following, producing a small but dedicated group of quantum enthusiasts who go on to make significant contributions to unconventional problem-solving.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.1,
+                "civil_rights": 0.1
+            }
+        }
+    ]
+}

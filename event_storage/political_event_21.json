@@ -1,0 +1,44 @@
+{
+    "event_index": 1,
+    "event_type": "political",
+    "event_title": "The Galactic Diplomatic Dilemma",
+    "event_description": "In the cosmic realm of [Nation Name], a startling discovery has been made - a hidden clause in an ancient intergalactic treaty that requires all signatory nations to offer a portion of their planetary desserts to extraterrestrial visitors as a gesture of interstellar hospitality. This peculiar provision, buried deep within the treaty's text, was stumbled upon by a team of astrophysicists analyzing transmissions from a distant galaxy. As news of this clause spreads, confectionery industries are thrown into chaos, pondering the logistics of exporting Earthly treats to beings from beyond the stars. Citizens are divided between excitement at the prospect of sharing their favorite sweets with aliens and concerns about the economic implications of the treaty's enforcement.",
+    "event_options": [
+        {
+            "option_description": "We must honor our cosmic obligations! Let's establish a Department of Intergalactic Desserts to oversee the selection and distribution of our finest confections to interstellar guests. Our desserts will showcase our cultural richness to alien civilizations.",
+            "option_outcome": "Earth becomes renowned across the galaxy for its diverse and delectable desserts, strengthening diplomatic ties with extraterrestrial civilizations and paving the way for interplanetary gastronomic exchanges.",
+            "option_effects": {
+                "political_freedom": 0.2,
+                "economy": -0.3,
+                "civil_rights": 0.0
+            }
+        },
+        {
+            "option_description": "This treaty is out of this world! We should challenge its validity and renegotiate terms that align with our national priorities. Our desserts are for Earthlings, not cosmic visitors!",
+            "option_outcome": "A fierce debate ensues in the Galactic Council, leading to revisions in the treaty that allow nations to opt-out of the dessert-sharing clause. Earth's confectionery industries breathe a sweet sigh of relief and focus on catering to local tastes.",
+            "option_effects": {
+                "political_freedom": 0.5,
+                "economy": 0.4,
+                "civil_rights": -0.2
+            }
+        },
+        {
+            "option_description": "This calls for an interstellar bake-off! Let's organize a grand competition where nations showcase their most exquisite desserts to impress our cosmic visitors. The winning dessert will be our cosmic ambassador.",
+            "option_outcome": "The intergalactic bake-off becomes a sensation across galaxies, drawing attention to Earth's culinary prowess and boosting tourism as extraterrestrial food enthusiasts flock to sample Earth's delectable treats.",
+            "option_effects": {
+                "political_freedom": 0.0,
+                "economy": 0.7,
+                "civil_rights": 0.3
+            }
+        },
+        {
+            "option_description": "It's time to explore the sweet side of space! Let's invest in research on space-compatible desserts that can be shared with our cosmic neighbors without depleting our planetary resources.",
+            "option_outcome": "Scientists develop innovative space desserts that not only captivate extraterrestrial palates but also pave the way for interplanetary dessert trade, creating a new industry of cosmic confections.",
+            "option_effects": {
+                "political_freedom": 0.3,
+                "economy": 0.6,
+                "civil_rights": 0.1
+            }
+        }
+    ]
+}
