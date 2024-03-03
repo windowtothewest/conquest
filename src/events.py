@@ -1,3 +1,5 @@
+import os
+import json
 from typing import List, Dict
 
 def survey_question(question:str, choices:List[str]):
@@ -28,21 +30,33 @@ class Event:
         for choice in self.choices.keys():
             print(f"{choice} \n")
         response = survey_question("How will you choose to respond?", list(self.choices.keys()))
-        return response
+        self.apply_effects(nation, response)
     
-    def apply_effects(self, nation, response):
+    def apply_effects(self, nation, response:str):
         if self.type == "political":
             nation.political_freedom_score += self.effects[response]["political_freedom"]
             nation.economy_score += self.effects[response]["economy"]
             nation.civil_rights_score += self.effects[response]["civil_rights"]
-        elif self.type == "economic":
+        elif self.type == "economic": # Not yet implemented
             nation.budget += self.effects[response]["budget"]
             nation.tax_rate += self.effects[response]["tax_rate"]
             nation.gdp += self.effects[response]["gdp"]
-        elif self.type == "military":
+        elif self.type == "military": # Not yet implemented
             nation.military_budget += self.effects[response]["military_budget"]
             nation.military_is_hostile += self.effects[response]["military_is_hostile"]
             nation.military_population += self.effects[response]["military_population"]
+
+def event_from_json(path:str):
+    assert os.path.exists(path), "Invalid path. File does not exist."
+    with open(path, "r") as file:
+        event_data = json.load(file)
+    this_event = Event(
+        name = event_data["event_title"],
+        type = event_data["event_type"],
+        description = event_data["event_description"],
+        choices = event_data["event_options"],
+    )
+    return this_event
 
 def main():
     pass

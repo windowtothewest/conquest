@@ -8,7 +8,7 @@ import numpy as np
 """
 
 nation_types = {
-    "Anarchic" : {"political_freedom": 1, "economy": 1, "civil_rights": 1},
+    "Anarchy" : {"political_freedom": 1, "economy": 1, "civil_rights": 1},
     "Libertarian" : {"political_freedom": .8, "economy": .8, "civil_rights": .8},
     "Capitalist" : {"political_freedom": .6, "economy": .8, "civil_rights": .6},
     "Liberal" : {"political_freedom": .9, "economy": .3, "civil_rights": .5},
@@ -44,6 +44,8 @@ nation_history_score_alterations = {
     "survivor" : {"political_freedom": -.5, "economy": .5, "civil_rights": -.5},
     "pilgrim" : {"political_freedom": -.5, "economy": .5, "civil_rights": -.5},
 }
+
+
 
 class Nation:
     def __init__(self, name:str, leader:str, capital:str):
@@ -89,10 +91,73 @@ class Nation:
         self.political_freedom_score = nation_types[self.nation_type]["political_freedom"]
         self.economy_score = nation_types[self.nation_type]["economy"]
         self.civil_rights_score = nation_types[self.nation_type]["civil_rights"]
+        self.overton_window_calculator()
         print(f"Your nation will begin as: {self.nation_type}. Interesting choice.")
     
     def respond_to_event(self, event):
         event.respond_to_event(self)
+
+    @staticmethod
+    def overton_window_calculator(self):
+        """ This function calculates the Overton Window of the nation based on the political freedom, economy, and civil rights scores."""
+        pef = self.political_freedom_score
+        ef = self.economy_score
+        pof = self.civil_rights_score
+        if pef <= 0.33 and ef <= 0.33 and pof <= 0.33: # Bottom of Personal Freedom Range
+            self.nation_type = "Psychotic Dictatorship"
+        elif pef <= 0.33 and ef <= 0.33 and (pof > 0.33 and pof <= 0.66):
+            self.nation_type = "Authoritarian Democracy"
+        elif pef <= 0.33 and ef <= 0.33 and pof > 0.66:
+            self.nation_type = "Tyranny by Majority"
+        elif pef <= 0.33 and (ef > 0.33 and ef <= 0.66) and pof <= 0.33:
+            self.nation_type = "Iron Fist Consumerists"
+        elif pef <= 0.33 and ef > 0.66 and pof <= 0.33:
+            self.nation_type = "Corporate Police State"
+        elif pef <= 0.33 and (ef > 0.33 and ef <= 0.66) and (pof > 0.33 and pof <= 0.66):
+            self.nation_type = "Moralistic Democracy"
+        elif pef <= 0.33 and (ef > 0.33 and ef <= 0.66) and pof > 0.66:
+            self.nation_type = "Conservative Democracy"
+        elif pef <= 0.33 and ef > 0.66 and (pof > 0.33 and pof <= 0.66):
+            self.nation_type = "Right-wing Utopia"
+        elif pef <= 0.33 and ef > 0.66 and pof > 0.66:
+            self.nation_type = "Free Wing Paradise"
+        elif (pef > 0.33 and pef <= 0.66) and ef <= 0.33 and pof <= 0.33: # Middle of Personal Freedom Range
+            self.nation_type = "Corrupt Dictatorship"
+        elif (pef > 0.33 and pef <= 0.66) and ef <= 0.33 and (pof > 0.33 and pof <= 0.66):
+            self.nation_type = "Democratic Socialists"
+        elif (pef > 0.33 and pef <= 0.66) and ef <= 0.33 and pof > 0.66:
+            self.nation_type = "Liberal Democratic Socialists"
+        elif (pef > 0.33 and pef <= 0.66) and (ef > 0.33 and ef <= 0.66) and pof <= 0.33:
+            self.nation_type = "Father Knows Best State"
+        elif (pef > 0.33 and pef <= 0.66) and ef > 0.66 and pof <= 0.33:
+            self.nation_type = "Compulsory Consumerist State"
+        elif (pef > 0.33 and pef <= 0.66) and (ef > 0.33 and ef <= 0.66) and (pof > 0.33 and pof <= 0.66):
+            self.nation_type = "Inoffensive Centrist Democracy"
+        elif (pef > 0.33 and pef <= 0.66) and (ef > 0.33 and ef <= 0.66) and pof > 0.66:
+            self.nation_type = "New York Times Democracy"
+        elif (pef > 0.33 and pef <= 0.66) and ef > 0.66 and (pof > 0.33 and pof <= 0.66):
+            self.nation_type = "Capitalist Paradise"
+        elif (pef > 0.33 and pef <= 0.66) and ef > 0.66 and pof > 0.66:
+            self.nation_type = "Corporate Bordello"
+        elif pef > 0.66 and ef <= 0.33 and pof <= 0.33: # Top of Personal Freedom Range
+            self.nation_type = "Iron Fist Socialist"
+        elif pef > 0.66 and ef <= 0.33 and (pof > 0.33 and pof <= 0.66):
+            self.nation_type = "Scandinavian Liberal Paradise"
+        elif pef > 0.66 and ef <= 0.33 and pof > 0.66:
+            self.nation_type = "Leftwing Utopia"
+        elif pef > 0.66 and (ef > 0.33 and ef <= 0.66) and pof <= 0.33:
+            self.nation_type = "Libertarian Police State"
+        elif pef > 0.66 and ef > 0.66 and pof <= 0.33:
+            self.nation_type = "Benevolent Dictatorship"
+        elif pef > 0.66 and (ef > 0.33 and ef <= 0.66) and (pof > 0.33 and pof <= 0.66):
+            self.nation_type = "Left-Leaning College State"
+        elif pef > 0.66 and (ef > 0.33 and ef <= 0.66) and pof > 0.66:
+            self.nation_type = "Civil Rights Lovefest"
+        elif pef > 0.66 and ef > 0.66 and (pof > 0.33 and pof <= 0.66):
+            self.nation_type = "Capitalizt"
+        elif pef > 0.66 and ef > 0.66 and pof > 0.66:
+            self.nation_type = "Anarchy"
+
 
 def main():
     pass

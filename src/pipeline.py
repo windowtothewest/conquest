@@ -1,5 +1,5 @@
 from nation import Nation
-from events import Event
+from events import Event, event_from_json
 from event_generation import json_chunk_length
 import numpy as np
 import os
@@ -51,8 +51,7 @@ def runtime(load_existing_save=False, existing_save_path=None):
         print("3. Exit without saving")
         response = str(input("Your choice: "))
         if response == "1":
-            # Respond to an event
-            pass
+            nation_instance = event_loop(nation_instance)
         elif response == "2":
             # Save and exit
             with open(f"{nation_instance.name}.pkl", "wb") as file:
