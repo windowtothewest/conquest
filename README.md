@@ -4,7 +4,9 @@ This project aims to provide the experience of being the leader of a nation and 
 
 ## Features Implemented
 
-- Nation creation, political alignment and the ability to respond to 60 unique events that affect the political leanings of your country. 
+- Nation creation.
+- Political alignment, change of Overton Window label as a result of your responses to events. 
+- Ability to respond to 60 unique events that affect the political leanings of your country. 
 
 ## Current Progress
 
