@@ -8,6 +8,10 @@ This project aims to provide the experience of being the leader of a nation and 
 - Political alignment, change of Overton Window label as a result of your responses to events. 
 - Ability to respond to 60 unique events that affect the political leanings of your country. 
 
+## Running the game
+This is just a command line game at the moment, later on I'd like to make it playable through a web browser. Give it a shot by cloning the repo and running 
+```python src/pipeline.py``` with Python version >= 3.10. 
+
 ## Current Progress
 
 The project is currently in its early stages of development. The basic infrastructure and core functionalities have been implemented. The next steps involve refining the gameplay mechanics, adding more features, and improving the user interface.
